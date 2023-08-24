@@ -1,0 +1,189 @@
+<!-- Hot Posts -->
+<h2 class="my-8 text-black dark:text-white relative widget-title">New Posts:</h2>
+<ul id="MyHotPosts" class="mb-20 [&>:first-child]:w-[475px] [&>:first-child]:h-[475px] [&>li]:w-[225px] [&>li]:h-[225px] [&>li]:float-left">
+</ul>
+<script type="text/javascript">
+	//<![CDATA[
+
+	var json;
+	var xmlhttp = new XMLHttpRequest();
+	console.log(urlBlog);
+	xmlhttp.open("GET", urlBlog, true);
+	// xmlhttp.open("GET", "https://galaxy-developer-area.blogspot.com/feeds/posts/default?alt=json", true);
+
+	xmlhttp.onreadystatechange = function () {
+		if (xmlhttp.readyState == 4) {
+			if (xmlhttp.status == 200) {
+				json = JSON.parse(xmlhttp.responseText);
+				console.log(json);
+				// console.log(json.feed.entry[0]);
+
+
+				// Hot Posts Options
+				var numposts = 5;
+				var _numchars = 90;
+				var numchars = 35;
+
+				var imageSize = '/s400/';
+				var imageSizeSm = '/s200/';
+
+
+				var items = json.feed.entry;
+				var x;
+				for (x = 0; x < numposts; x++) {
+					for (var k = 0; k < items[x].link.length; k++) {
+						if (items[x].link[k].rel == 'alternate') {
+							posturl = items[x].link[k].href;
+							break;
+						}
+					}
+					document.getElementById("MyHotPosts").innerHTML += `
+						<li class="relative innerBottomShadow [&>a>img]:hover:scale-125 shadow-inner rounded-lg overflow-hidden text-white m-4 cursor-pointer ${items[x].media$thumbnail? "" : ""}">
+							<a class="absolute z-20 top-0 left-0 h-full w-full" href="${posturl}" target="_blank">
+								<!--
+								<div class="absolute z-10 p-4 w-full left-0 bottom-0 bg-[var(--dark3)]">
+									<span class="inline-block rounded-full bg-[var(--favColor)] text-white font-bold ${x !== 0 ? "text-base py-1 px-2" : "py-2 px-4"}">${items[x].category ? items[x].category[0].term : "Uncategorized"}</span>
+									<h3 class="mb-[10%] font-bold">${items[x].title ? items[x].title.$t : "UnTitle"}</h3>
+									<span class="">${items[x].published.$t}</span>
+									<p class="">${(items[x].summary ? items[x].summary.$t : "No Summary").substring(0, x===0 ? _numchars: numchars).trim()}</p>
+								</div>
+								-->
+								${items[x].media$thumbnail? `<img alt='thumbnail'  ${x == 0 ?  "width='475' height='475'" : "width='250' height='250'"} class='duration-200 absolute top-0 left-0 h-full' src='${(items[x].media$thumbnail.url).replace(/\/s(.*)\//gm,x === 0 ? imageSize : imageSizeSm)}'/>` : '' }
+							</a>
+						</li>
+						`;
+				}
+			}
+		}
+	};
+	xmlhttp.send(null);
+
+	//------------------- Dark Mode
+	if (
+		localStorage.getItem("color-theme") === "dark" ||
+		(!("color-theme" in localStorage) &&
+			window.matchMedia("(prefers-color-scheme: dark)").matches)
+	) {
+		document.documentElement.classList.add("dark");
+	} else {
+		document.documentElement.classList.remove("dark");
+	}
+
+
+	// ]]>
+</script>
+
+
+
+
+
+<b:section class='popular-posts-container mb-20 w-full pr-0 sm:pr-20' id='bsection-popular-posts'>
+
+
+
+
+    <!-- FeaturedPost1 -->
+    <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost'>
+        <b:widget-settings>
+            <b:widget-setting name='showSnippet'>true</b:widget-setting>
+            <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+            <b:widget-setting name='postId'></b:widget-setting>
+            <b:widget-setting name='showFirstImage'>true</b:widget-setting>
+            <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+            <!-- Only display title if it's non-empty -->
+            <b:if cond='data:title != &quot;&quot;'>
+                <h2 class='title mb-14 relative widget-title'><data:title/></h2>
+            </b:if>
+            <b:include name='content'/>
+            <b:include name='quickedit'/></b:includable>
+            <b:includable id='content'>
+                <a class='relative post-summary flex flex-col sm:flex-row gap-6 bg-[var(--light2)] dark:bg-[var(--dark2)] rounded-lg p-4 shadow-md' expr:href='data:postUrl'>
+					<b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
+						<div class="relative w-full sm:w-1/3 overflow-hidden  order-1 rounded-xl">
+							<img width="300" height="300" alt="Featured-Post" class='w-full hover:scale-150 duration-200' expr:src='data:postFirstImage'/>
+						</div>
+					</b:if>
+
+					<div class="flex flex-col justify-center order-2 w-full sm:w-5/6">
+						<b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
+							<h3 class="text-[var(--dark4)] dark:text-[var(--light1)] mb-7"><data:postTitle/></h3>
+						</b:if>
+						<b:if cond='data:showSnippet and data:postSummary != &quot;&quot;'>
+							<p class="text-[var(--dark4)] dark:text-[var(--light1)] w-2/3"><data:postSummary/></p>
+						</b:if>
+					</div>
+                </a>
+        </b:includable>
+    </b:widget>
+
+
+
+
+
+	<!-- pup -->
+    <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
+        <b:widget-settings>
+            <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
+            <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+            <b:widget-setting name='showSnippets'>true</b:widget-setting>
+            <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+            <b:if cond='data:title != &quot;&quot;'>
+                <h2 class="mb-14 text-gray-900 dark:text-white relative widget-title">
+                    <data:title />
+                </h2>
+            </b:if>
+            <div class='widget-content popular-posts'>
+                <ul>
+                    <b:class name="flex flex-wrap items-start justify-center sm:justify-start gap-8"/>
+                    <b:loop values='data:posts' var='post'>
+                        <li class="relative w-full sm:w-64 p-4 bg-[var(--light2)] dark:bg-[var(--dark3)] rounded-lg overflow-hidden shadow-lg [&_img]:hover:scale-150 [&_img]:duration-200">
+                            <b:if cond='!data:showThumbnails'>
+                                <b:if cond='!data:showSnippets'>
+                                    <!-- (1) No snippet/thumbnail -->
+                                    <a expr:href='data:post.href'><data:post.title /></a>
+                                    <b:else />
+                                    <!-- (2) Show only snippets -->
+                                    <div class='item-title'><a expr:href='data:post.href'><data:post.title /></a></div>
+                                    <div class='item-snippet'><data:post.snippet /></div>
+                                </b:if>
+                                <b:else />
+                                <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+                                <div expr:class='data:showSnippets ? &quot;item-content flex flex-col gap-y-2 items-center justify-center &quot; : &quot;item-thumbnail-only&quot;'>
+                                    <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+                                        <div class='item-thumbnail mb-4 w-full sm:w-60 rounded-lg overflow-hidden'>
+                                            <a expr:href='data:post.href' target='_blank'>
+                                                <b:with value='data:post.featuredImage.isResizable ? resizeImage(data:post.featuredImage, 248, &quot;1:1&quot;) : data:post.thumbnail' var='image'>
+                                                    <img width="250" height="250" alt="popular-posts" class="w-full" expr:src='data:image' />
+                                                </b:with>
+                                            </a>
+                                        </div>
+                                        <b:else/>
+                                        <a class="flex w-full h-56 rounded-lg relative overflow-hidden [&_div.]:hover:scale-125 mb-4" expr:href='data:post.href' target='_blank'>
+                                            <div class='w-full duration-200'></div>
+                                        </a>
+                                    </b:if>
+                                    <div class='item-title w-full'>
+                                        <a expr:href='data:post.href'>
+                                            <h4 class="text-[var(--dark4)] dark:text-[var(--light1)]"><data:post.title /></h4>
+                                        </a>
+                                    </div>
+                                    <b:if cond='data:showSnippets'>
+                                        <div class='item-snippet'>
+                                            <p class="text-[var(--dark3)] dark:text-[var(--light2)]"><data:post.snippet /></p>
+                                        </div>
+                                    </b:if>
+                                </div>
+                            </b:if>
+                        </li>
+                    </b:loop>
+                </ul>
+                <b:include name='quickedit' />
+            </div>
+        </b:includable>
+    </b:widget>
+</b:section>
+

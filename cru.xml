@@ -1,0 +1,99 @@
+
+            <!-- Post Breadcrumbs -->
+            <!-- <nav id='breadcrumb' class="breadcrumb w-full"></nav>
+                <b:if cond='data:blog.pageType == "SingleItem"'>
+                    <p class='breadcrumbs'>
+                        <span class='post-labels'>
+                            <a expr:href='data:blog.homepageUrl' rel='tag'>Home</a>
+                            <b:loop values='data:posts' var='post'>
+                                <b:if cond='data:post.labels'>
+                                    <b:loop values='data:post.labels' var='label'>
+                                        <b:if cond='data:label.isLast == "true"'> »
+                                            <a expr:href='data:label.url' rel='tag'><data:label.name/></a>
+                                        </b:if>
+                                    </b:loop>
+                                    <b:else/>
+                                        » Unlabelled
+                                </b:if>
+                                » <span><data:post.title/></span>
+                            </b:loop>
+                        </span>
+                    </p>
+                <b:else/>
+                    <b:if cond='data:blog.pageType == "archive"'>
+                        <p class='breadcrumbs'>
+                            <span class='post-labels'>
+                                <a expr:href='data:blog.homepageUrl'>Home</a> » Archives for <data:blog.pageName/>
+                            </span>
+                        </p>
+                    <b:else/>
+                        <b:if cond='data:blog.pageType == "index"'>
+                            <p class='breadcrumbs'>
+                                <span class='post-labels'>
+                                    <b:if cond='data:blog.pageName == ""'>
+                                        <a expr:href='data:blog.homepageUrl'>Home</a> » All posts
+                                    <b:else/>
+                                        <a expr:href='data:blog.homepageUrl'>Home</a> » <data:blog.pageName/>
+                                    </b:if>
+                                </span>
+                            </p>
+                        </b:if>
+                    </b:if>
+                </b:if>
+                <a class="crumb" expr:href='data:blog.homepageUrl'>
+                    <data:messages.home/>
+                </a>
+
+                <em class='delimiter'/>
+                <b:if cond='data:blog.pageType == "SingleItem"'>
+                    <b:loop values='data:posts' var='post'>
+                        <b:if cond='data:post.labels'>
+                            <b:loop values='data:post.labels' var='label'>
+                                <b:if cond='data:label.isLast == "true"'> »
+                                    <a expr:href='data:label.url' rel='tag'><data:label.name/></a>
+                                </b:if>
+                            </b:loop>
+                            <b:else/>
+                                » Unlabelled
+                        </b:if>
+                        » <span><data:post.title/></span>
+                    </b:loop>
+
+                    <b:else/>
+                    <span class='current crumb'>
+                        <data:view.title.escaped/>
+                    </span>
+                </b:if>
+            </nav> -->
+
+
+
+            <script type='application/ld+json'>
+            {
+            &quot;@context&quot;: &quot;http://schema.org&quot;,
+            &quot;@type&quot;: &quot;BreadcrumbList&quot;,
+            &quot;@id&quot;: &quot;#Breadcrumb&quot;,
+            &quot;itemListElement&quot;: [{
+              &quot;@type&quot;: &quot;ListItem&quot;,
+              &quot;position&quot;: 1,
+              &quot;item&quot;: {
+                &quot;name&quot;: &quot;<data:messages.home/>&quot;,
+                &quot;@id&quot;: &quot;<data:blog.homepageUrl.jsonEscaped/>&quot;
+              }
+            },{
+              &quot;@type&quot;: &quot;ListItem&quot;,
+              &quot;position&quot;: 2,
+              &quot;item&quot;: {
+                &quot;name&quot;: &quot;<b:if cond='data:post.labels'><data:post.labels.last.name/></b:if>&quot;,
+                &quot;@id&quot;: &quot;<data:post.labels.last.url.jsonEscaped/>&quot;
+              }
+            },{
+              &quot;@type&quot;: &quot;ListItem&quot;,
+              &quot;position&quot;: 3,
+              &quot;item&quot;: {
+                &quot;name&quot;: &quot;<data:post.title/>&quot;,
+                &quot;@id&quot;: &quot;<data:post.url.jsonEscaped/>&quot;
+              }
+            }]
+            }
+            </script>

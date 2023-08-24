@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="https://www.blogger.com/styles/atom.css" type="text/css"?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+    xmlns:gd='http://schemas.google.com/g/2005' xmlns:georss='http://www.georss.org/georss'
+    xmlns:thr='http://purl.org/syndication/thread/1.0'
+    xmlns:blogger='http://schemas.google.com/blogger/2008'>
+    <id>tag:blogger.com,1999:blog-1949113758405332550</id>
+    <updated>2023-07-01T10:02:25.868-07:00</updated>
+    <title type='text'>Galaxy Developer Area</title>
+    <subtitle type='html'>Description</subtitle>
+    <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+        href='https://www.blogger.com/feeds/1949113758405332550/posts/default' />
+    <link rel='self' type='application/atom+xml'
+        href='https://www.blogger.com/feeds/1949113758405332550/posts/default' />
+    <link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml'
+        href='https://www.blogger.com/feeds/1949113758405332550/posts/default' />
+    <link rel='alternate' type='text/html' href='http://galaxy-developer-area.blogspot.com/' />
+    <link rel='hub' href='http://pubsubhubbub.appspot.com/' />
+    <author>
+        <name>GDA</name>
+        <uri>https://www.blogger.com/profile/08454703556955493115</uri>
+        <email>noreply@blogger.com</email>
+        <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='35' height='35'
+            src='//www.blogger.com/img/blogger_logo_round_35.png' />
+    </author>
+    <generator version='7.00' uri='https://www.blogger.com'>Blogger</generator>
+    <openSearch:totalResults>4</openSearch:totalResults>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+    <entry>
+        <id>tag:blogger.com,1999:blog-1949113758405332550.post-5844971464867642197</id>
+        <published>2023-07-01T10:02:00.000-07:00</published>
+        <updated>2023-07-01T10:02:25.791-07:00</updated>
+        <app:control xmlns:app='http://purl.org/atom/app#'>
+            <app:draft>yes</app:draft>
+        </app:control>
+        <title type='text'></title>
+        <content type='html'></content>
+        <link rel='edit' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/5844971464867642197' />
+        <link rel='self' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/5844971464867642197' />
+        <author>
+            <name>GDA</name>
+            <uri>https://www.blogger.com/profile/08454703556955493115</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='35' height='35'
+                src='//www.blogger.com/img/blogger_logo_round_35.png' />
+        </author>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-1949113758405332550.post-8539934086417240116</id>
+        <published>2023-06-28T04:42:00.006-07:00</published>
+        <updated>2023-07-01T07:55:19.854-07:00</updated>
+        <title type='text'>hrthrthrthtr</title>
+        <content type='html'>&lt;p&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both;
+            text-align: center;"&gt;&lt;a
+            href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgclk_tkWyHLjFrnQYVrUMhmfMTGxRh1w-6RK7QpxIO8KIbuVoVXqCB2ixgid-2ssMb1Q0XY1WrXeODO6eOoyAA6HF19iulxhXOM6ERApmNqNFdxvCldSD5Cc6pF-UCe1rbm2aAYZiIYXxrIYLjfceA8aGkj00COjd52V-wUd4L674OlaI3GTSVlW7DM2E/s1200/VueJS_1.png"
+            imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0"
+            data-original-height="900" data-original-width="1200" height="240"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgclk_tkWyHLjFrnQYVrUMhmfMTGxRh1w-6RK7QpxIO8KIbuVoVXqCB2ixgid-2ssMb1Q0XY1WrXeODO6eOoyAA6HF19iulxhXOM6ERApmNqNFdxvCldSD5Cc6pF-UCe1rbm2aAYZiIYXxrIYLjfceA8aGkj00COjd52V-wUd4L674OlaI3GTSVlW7DM2E/s320/VueJS_1.png"
+            width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;&lt;blockquote
+            style="border: none; margin: 0 0 0 40px; padding: 0px;"&gt;&lt;p style="text-align:
+            left;"&gt;&amp;nbsp;&lt;strong style="background-color: white; font-family:
+            &amp;quot;Open Sans&amp;quot;, Arial, sans-serif; font-size: 14px; margin: 0px; padding:
+            0px; text-align: justify;"&gt;Lorem Ipsum&lt;/strong&gt;&lt;span
+            style="background-color: white; font-family: &amp;quot;Open Sans&amp;quot;, Arial,
+            sans-serif; font-size: 14px; text-align: justify;"&gt;&amp;nbsp;is simply dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like Aldus PageMaker
+            including versions of Lorem Ipsum.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;</content>
+        <link rel='replies' type='application/atom+xml'
+            href='https://galaxy-developer-area.blogspot.com/feeds/8539934086417240116/comments/default'
+            title='Post Comments' />
+        <link rel='replies' type='text/html'
+            href='https://galaxy-developer-area.blogspot.com/2023/06/lorem-ipsum-simply-dummy-text-of_28.html#comment-form'
+            title='0 Comments' />
+        <link rel='edit' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/8539934086417240116' />
+        <link rel='self' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/8539934086417240116' />
+        <link rel='alternate' type='text/html'
+            href='https://galaxy-developer-area.blogspot.com/2023/06/lorem-ipsum-simply-dummy-text-of_28.html'
+            title='hrthrthrthtr' />
+        <author>
+            <name>GDA</name>
+            <uri>https://www.blogger.com/profile/08454703556955493115</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='35' height='35'
+                src='//www.blogger.com/img/blogger_logo_round_35.png' />
+        </author>
+        <media:thumbnail xmlns:media='http://search.yahoo.com/mrss/'
+            url='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgclk_tkWyHLjFrnQYVrUMhmfMTGxRh1w-6RK7QpxIO8KIbuVoVXqCB2ixgid-2ssMb1Q0XY1WrXeODO6eOoyAA6HF19iulxhXOM6ERApmNqNFdxvCldSD5Cc6pF-UCe1rbm2aAYZiIYXxrIYLjfceA8aGkj00COjd52V-wUd4L674OlaI3GTSVlW7DM2E/s72-c/VueJS_1.png'
+            height='72' width='72' />
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-1949113758405332550.post-2441333110428392647</id>
+        <published>2023-06-27T17:12:00.004-07:00</published>
+        <updated>2023-06-30T18:32:53.556-07:00</updated>
+        <title type='text'>including versions of Lorem Ipsum.</title>
+        <content type='html'>&lt;div class="separator" style="clear: both; text-align:
+            center;"&gt;&lt;a
+            href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLFe7QflrJ8snwerKK2-D0ol6wHT1Of8hmvn7JgqoX0WKvaf7AwHUsb0xjffL1kLGARqwfLoImJJiKmWcQUY0RMUyWaF9X8WNv4aHiaFleTTdT6l7e6edFKWJGGOplDbTSLxopubKWRs0LV6I_yK_GdNwzH0RDO7eAk3BxgGXyE7dJhtuwDhp-SvA6jzg/s526/350138502_265074636190919_1533518673134893059_n.jpg"
+            style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0"
+            data-original-height="526" data-original-width="526" height="320"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLFe7QflrJ8snwerKK2-D0ol6wHT1Of8hmvn7JgqoX0WKvaf7AwHUsb0xjffL1kLGARqwfLoImJJiKmWcQUY0RMUyWaF9X8WNv4aHiaFleTTdT6l7e6edFKWJGGOplDbTSLxopubKWRs0LV6I_yK_GdNwzH0RDO7eAk3BxgGXyE7dJhtuwDhp-SvA6jzg/s320/350138502_265074636190919_1533518673134893059_n.jpg"
+            width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br
+            /&gt;&amp;nbsp;&lt;p&gt;&lt;/p&gt;&lt;blockquote style="border: none; margin: 0px 0px
+            0px 40px; padding: 0px; text-align: left;"&gt;&lt;p&gt;&lt;strong
+            style="background-color: white; font-family: &amp;quot;Open Sans&amp;quot;, Arial,
+            sans-serif; font-size: 14px; margin: 0px; padding: 0px; text-align: justify;"&gt;Lorem
+            Ipsum&lt;/strong&gt;&lt;span face="&amp;quot;Open Sans&amp;quot;, Arial, sans-serif"
+            style="background-color: white; font-size: 14px; text-align: justify;"&gt;&amp;nbsp;is
+            simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem
+            Ipsum.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;</content>
+        <link rel='replies' type='application/atom+xml'
+            href='https://galaxy-developer-area.blogspot.com/feeds/2441333110428392647/comments/default'
+            title='Post Comments' />
+        <link rel='replies' type='text/html'
+            href='https://galaxy-developer-area.blogspot.com/2023/06/lorem-ipsum-simply-dummy-text-of.html#comment-form'
+            title='0 Comments' />
+        <link rel='edit' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/2441333110428392647' />
+        <link rel='self' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/2441333110428392647' />
+        <link rel='alternate' type='text/html'
+            href='https://galaxy-developer-area.blogspot.com/2023/06/lorem-ipsum-simply-dummy-text-of.html'
+            title='including versions of Lorem Ipsum.' />
+        <author>
+            <name>GDA</name>
+            <uri>https://www.blogger.com/profile/08454703556955493115</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='35' height='35'
+                src='//www.blogger.com/img/blogger_logo_round_35.png' />
+        </author>
+        <media:thumbnail xmlns:media='http://search.yahoo.com/mrss/'
+            url='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLFe7QflrJ8snwerKK2-D0ol6wHT1Of8hmvn7JgqoX0WKvaf7AwHUsb0xjffL1kLGARqwfLoImJJiKmWcQUY0RMUyWaF9X8WNv4aHiaFleTTdT6l7e6edFKWJGGOplDbTSLxopubKWRs0LV6I_yK_GdNwzH0RDO7eAk3BxgGXyE7dJhtuwDhp-SvA6jzg/s72-c/350138502_265074636190919_1533518673134893059_n.jpg'
+            height='72' width='72' />
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <id>tag:blogger.com,1999:blog-1949113758405332550.post-8893537948772901489</id>
+        <published>2023-06-26T11:14:00.003-07:00</published>
+        <updated>2023-06-27T17:10:36.432-07:00</updated>
+        <title type='text'>Lorem Ipsum is simply dummy text </title>
+        <content type='html'>&lt;p&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both;
+            text-align: center;"&gt;&lt;a
+            href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWDyOePnC7A3C5cUMrOBrKvfVSHwQEJnlH_ziktJTUMCcdLz2k2hYPtQyNFgPquDouqGqnsI8W3K2pIpzMqTr6V2u7MKDChTZfadNeBgfqEDPx8W7-VUc69PeMCFAdQ4K106eugekfxW-1eQTJajNiqrIXur5h7qKYrcjODeWmMjvTLVIuTbvnWPFv_HU/s1600/attachment%20(1).png"
+            imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0"
+            data-original-height="1200" data-original-width="1600" height="240"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWDyOePnC7A3C5cUMrOBrKvfVSHwQEJnlH_ziktJTUMCcdLz2k2hYPtQyNFgPquDouqGqnsI8W3K2pIpzMqTr6V2u7MKDChTZfadNeBgfqEDPx8W7-VUc69PeMCFAdQ4K106eugekfxW-1eQTJajNiqrIXur5h7qKYrcjODeWmMjvTLVIuTbvnWPFv_HU/s320/attachment%20(1).png"
+            width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;&lt;blockquote
+            style="border: none; margin: 0 0 0 40px; padding: 0px;"&gt;&lt;p style="text-align:
+            left;"&gt;&lt;strong style="background-color: white; font-family: &amp;quot;Open
+            Sans&amp;quot;, Arial, sans-serif; font-size: 14px; margin: 0px; padding: 0px;
+            text-align: justify;"&gt;Lorem Ipsum&lt;/strong&gt;&lt;span style="background-color:
+            white; font-family: &amp;quot;Open Sans&amp;quot;, Arial, sans-serif; font-size: 14px;
+            text-align: justify;"&gt;&amp;nbsp;is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+            desktop publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+        <link rel='replies' type='application/atom+xml'
+            href='https://galaxy-developer-area.blogspot.com/feeds/8893537948772901489/comments/default'
+            title='Post Comments' />
+        <link rel='replies' type='text/html'
+            href='https://galaxy-developer-area.blogspot.com/2023/06/fwerfewfefefef-fe-ewf-ewf-ef.html#comment-form'
+            title='0 Comments' />
+        <link rel='edit' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/8893537948772901489' />
+        <link rel='self' type='application/atom+xml'
+            href='https://www.blogger.com/feeds/1949113758405332550/posts/default/8893537948772901489' />
+        <link rel='alternate' type='text/html'
+            href='https://galaxy-developer-area.blogspot.com/2023/06/fwerfewfefefef-fe-ewf-ewf-ef.html'
+            title='Lorem Ipsum is simply dummy text ' />
+        <author>
+            <name>GDA</name>
+            <uri>https://www.blogger.com/profile/08454703556955493115</uri>
+            <email>noreply@blogger.com</email>
+            <gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='35' height='35'
+                src='//www.blogger.com/img/blogger_logo_round_35.png' />
+        </author>
+        <media:thumbnail xmlns:media='http://search.yahoo.com/mrss/'
+            url='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWDyOePnC7A3C5cUMrOBrKvfVSHwQEJnlH_ziktJTUMCcdLz2k2hYPtQyNFgPquDouqGqnsI8W3K2pIpzMqTr6V2u7MKDChTZfadNeBgfqEDPx8W7-VUc69PeMCFAdQ4K106eugekfxW-1eQTJajNiqrIXur5h7qKYrcjODeWmMjvTLVIuTbvnWPFv_HU/s72-c/attachment%20(1).png'
+            height='72' width='72' />
+        <thr:total>0</thr:total>
+    </entry>
+</feed>

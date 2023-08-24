@@ -1,0 +1,1773 @@
+map {
+    "quot": map {
+        "character": """",
+        "name": "quot",
+        "escape-sequence": "&#34;",
+        "description": "quotation mark (APL quote)";
+    }
+},
+map {
+    "amp": map {
+        "character": "&amp;",
+        "name": "amp",
+        "escape-sequence": "&#38;",
+        "description": "ampersand";
+    }
+},map {
+    "apos": map {
+        "character": "'",
+        "name": "apos",
+        "escape-sequence": "&#39;",
+        "description": "apostrophe (apostrophe-quote)";
+    }
+},map {
+    "lt": map {
+        "character": "<",
+        "name": "lt",
+        "escape-sequence": "&#60;",
+        "description": "less-than sign";
+    }
+},map {
+    "gt": map {
+        "character": ">",
+        "name": "gt",
+        "escape-sequence": "&#62;",
+        "description": "greater-than sign";
+    }
+},map {
+    "nbsp": map {
+        "character": " ",
+        "name": "nbsp",
+        "escape-sequence": "&#160;",
+        "description": "no-break space (non-breaking space)";
+    }
+},map {
+    "iexcl": map {
+        "character": "¡",
+        "name": "iexcl",
+        "escape-sequence": "&#161;",
+        "description": "inverted exclamation mark";
+    }
+},map {
+    "cent": map {
+        "character": "¢",
+        "name": "cent",
+        "escape-sequence": "&#162;",
+        "description": "cent sign";
+    }
+},map {
+    "pound": map {
+        "character": "£",
+        "name": "pound",
+        "escape-sequence": "&#163;",
+        "description": "pound sign";
+    }
+},map {
+    "curren": map {
+        "character": "¤",
+        "name": "curren",
+        "escape-sequence": "&#164;",
+        "description": "currency sign";
+    }
+},map {
+    "yen": map {
+        "character": "¥",
+        "name": "yen",
+        "escape-sequence": "&#165;",
+        "description": "yen sign (yuan sign)";
+    }
+},map {
+    "brvbar": map {
+        "character": "¦",
+        "name": "brvbar",
+        "escape-sequence": "&#166;",
+        "description": "broken bar (broken vertical bar)";
+    }
+},map {
+    "sect": map {
+        "character": "§",
+        "name": "sect",
+        "escape-sequence": "&#167;",
+        "description": "section sign";
+    }
+},map {
+    "uml": map {
+        "character": "¨",
+        "name": "uml",
+        "escape-sequence": "&#168;",
+        "description": "diaeresis (spacing diaeresis); see Germanic umlaut";
+    }
+},map {
+    "copy": map {
+        "character": "©",
+        "name": "copy",
+        "escape-sequence": "&#169;",
+        "description": "copyright symbol";
+    }
+},map {
+    "ordf": map {
+        "character": "ª",
+        "name": "ordf",
+        "escape-sequence": "&#170;",
+        "description": "feminine ordinal indicator";
+    }
+},map {
+    "laquo": map {
+        "character": "«",
+        "name": "laquo",
+        "escape-sequence": "&#171;",
+        "description": "left-pointing double angle quotation mark (left pointing guillemet)";
+    }
+},map {
+    "not": map {
+        "character": "¬",
+        "name": "not",
+        "escape-sequence": "&#172;",
+        "description": "not sign";
+    }
+},map {
+    "shy": map {
+        "character": "­",
+        "name": "shy",
+        "escape-sequence": "&#173;",
+        "description": "soft hyphen (discretionary hyphen)";
+    }
+},map {
+    "reg": map {
+        "character": "®",
+        "name": "reg",
+        "escape-sequence": "&#174;",
+        "description": "registered sign (registered trademark symbol)";
+    }
+},map {
+    "macr": map {
+        "character": "¯",
+        "name": "macr",
+        "escape-sequence": "&#175;",
+        "description": "macron (spacing macron, overline, APL overbar)";
+    }
+},map {
+    "deg": map {
+        "character": "°",
+        "name": "deg",
+        "escape-sequence": "&#176;",
+        "description": "degree symbol";
+    }
+},map {
+    "plusmn": map {
+        "character": "±",
+        "name": "plusmn",
+        "escape-sequence": "&#177;",
+        "description": "plus-minus sign (plus-or-minus sign)";
+    }
+},map {
+    "sup2": map {
+        "character": "²",
+        "name": "sup2",
+        "escape-sequence": "&#178;",
+        "description": "superscript two (superscript digit two, squared)";
+    }
+},map {
+    "sup3": map {
+        "character": "³",
+        "name": "sup3",
+        "escape-sequence": "&#179;",
+        "description": "superscript three (superscript digit three, cubed)";
+    }
+},map {
+    "acute": map {
+        "character": "´",
+        "name": "acute",
+        "escape-sequence": "&#180;",
+        "description": "acute accent (spacing acute)";
+    }
+},map {
+    "micro": map {
+        "character": "µ",
+        "name": "micro",
+        "escape-sequence": "&#181;",
+        "description": "micro sign";
+    }
+},map {
+    "para": map {
+        "character": "¶",
+        "name": "para",
+        "escape-sequence": "&#182;",
+        "description": "pilcrow sign (paragraph sign)";
+    }
+},map {
+    "middot": map {
+        "character": "·",
+        "name": "middot",
+        "escape-sequence": "&#183;",
+        "description": "middle dot (Georgian comma, Greek middle dot)";
+    }
+},map {
+    "cedil": map {
+        "character": "¸",
+        "name": "cedil",
+        "escape-sequence": "&#184;",
+        "description": "cedilla (spacing cedilla)";
+    }
+},map {
+    "sup1": map {
+        "character": "¹",
+        "name": "sup1",
+        "escape-sequence": "&#185;",
+        "description": "superscript one (superscript digit one)";
+    }
+},map {
+    "ordm": map {
+        "character": "º",
+        "name": "ordm",
+        "escape-sequence": "&#186;",
+        "description": "masculine ordinal indicator";
+    }
+},map {
+    "raquo": map {
+        "character": "»",
+        "name": "raquo",
+        "escape-sequence": "&#187;",
+        "description": "right-pointing double angle quotation mark (right pointing guillemet)";
+    }
+},map {
+    "frac14": map {
+        "character": "¼",
+        "name": "frac14",
+        "escape-sequence": "&#188;",
+        "description": "vulgar fraction one quarter (fraction one quarter)";
+    }
+},map {
+    "frac12": map {
+        "character": "½",
+        "name": "frac12",
+        "escape-sequence": "&#189;",
+        "description": "vulgar fraction one half (fraction one half)";
+    }
+},map {
+    "frac34": map {
+        "character": "¾",
+        "name": "frac34",
+        "escape-sequence": "&#190;",
+        "description": "vulgar fraction three quarters (fraction three quarters)";
+    }
+},map {
+    "iquest": map {
+        "character": "¿",
+        "name": "iquest",
+        "escape-sequence": "&#191;",
+        "description": "inverted question mark (turned question mark)";
+    }
+},map {
+    "Agrave": map {
+        "character": "À",
+        "name": "Agrave",
+        "escape-sequence": "&#192;",
+        "description": "Latin capital letter A with grave accent (Latin capital letter A grave)";
+    }
+},map {
+    "Aacute": map {
+        "character": "Á",
+        "name": "Aacute",
+        "escape-sequence": "&#193;",
+        "description": "Latin capital letter A with acute accent";
+    }
+},map {
+    "Acirc": map {
+        "character": "Â",
+        "name": "Acirc",
+        "escape-sequence": "&#194;",
+        "description": "Latin capital letter A with circumflex";
+    }
+},map {
+    "Atilde": map {
+        "character": "Ã",
+        "name": "Atilde",
+        "escape-sequence": "&#195;",
+        "description": "Latin capital letter A with tilde";
+    }
+},map {
+    "Auml": map {
+        "character": "Ä",
+        "name": "Auml",
+        "escape-sequence": "&#196;",
+        "description": "Latin capital letter A with diaeresis";
+    }
+},map {
+    "Aring": map {
+        "character": "Å",
+        "name": "Aring",
+        "escape-sequence": "&#197;",
+        "description": "Latin capital letter A with ring above (Latin capital letter A ring)";
+    }
+},map {
+    "AElig": map {
+        "character": "Æ",
+        "name": "AElig",
+        "escape-sequence": "&#198;",
+        "description": "Latin capital letter AE (Latin capital ligature AE)";
+    }
+},map {
+    "Ccedil": map {
+        "character": "Ç",
+        "name": "Ccedil",
+        "escape-sequence": "&#199;",
+        "description": "Latin capital letter C with cedilla";
+    }
+},map {
+    "Egrave": map {
+        "character": "È",
+        "name": "Egrave",
+        "escape-sequence": "&#200;",
+        "description": "Latin capital letter E with grave accent";
+    }
+},map {
+    "Eacute": map {
+        "character": "É",
+        "name": "Eacute",
+        "escape-sequence": "&#201;",
+        "description": "Latin capital letter E with acute accent";
+    }
+},map {
+    "Ecirc": map {
+        "character": "Ê",
+        "name": "Ecirc",
+        "escape-sequence": "&#202;",
+        "description": "Latin capital letter E with circumflex";
+    }
+},map {
+    "Euml": map {
+        "character": "Ë",
+        "name": "Euml",
+        "escape-sequence": "&#203;",
+        "description": "Latin capital letter E with diaeresis";
+    }
+},map {
+    "Igrave": map {
+        "character": "Ì",
+        "name": "Igrave",
+        "escape-sequence": "&#204;",
+        "description": "Latin capital letter I with grave accent";
+    }
+},map {
+    "Iacute": map {
+        "character": "Í",
+        "name": "Iacute",
+        "escape-sequence": "&#205;",
+        "description": "Latin capital letter I with acute accent";
+    }
+},map {
+    "Icirc": map {
+        "character": "Î",
+        "name": "Icirc",
+        "escape-sequence": "&#206;",
+        "description": "Latin capital letter I with circumflex";
+    }
+},map {
+    "Iuml": map {
+        "character": "Ï",
+        "name": "Iuml",
+        "escape-sequence": "&#207;",
+        "description": "Latin capital letter I with diaeresis";
+    }
+},map {
+    "ETH": map {
+        "character": "Ð",
+        "name": "ETH",
+        "escape-sequence": "&#208;",
+        "description": "Latin capital letter Eth";
+    }
+},map {
+    "Ntilde": map {
+        "character": "Ñ",
+        "name": "Ntilde",
+        "escape-sequence": "&#209;",
+        "description": "Latin capital letter N with tilde";
+    }
+},map {
+    "Ograve": map {
+        "character": "Ò",
+        "name": "Ograve",
+        "escape-sequence": "&#210;",
+        "description": "Latin capital letter O with grave accent";
+    }
+},map {
+    "Oacute": map {
+        "character": "Ó",
+        "name": "Oacute",
+        "escape-sequence": "&#211;",
+        "description": "Latin capital letter O with acute accent";
+    }
+},map {
+    "Ocirc": map {
+        "character": "Ô",
+        "name": "Ocirc",
+        "escape-sequence": "&#212;",
+        "description": "Latin capital letter O with circumflex";
+    }
+},map {
+    "Otilde": map {
+        "character": "Õ",
+        "name": "Otilde",
+        "escape-sequence": "&#213;",
+        "description": "Latin capital letter O with tilde";
+    }
+},map {
+    "Ouml": map {
+        "character": "Ö",
+        "name": "Ouml",
+        "escape-sequence": "&#214;",
+        "description": "Latin capital letter O with diaeresis";
+    }
+},map {
+    "times": map {
+        "character": "×",
+        "name": "times",
+        "escape-sequence": "&#215;",
+        "description": "multiplication sign";
+    }
+},map {
+    "Oslash": map {
+        "character": "Ø",
+        "name": "Oslash",
+        "escape-sequence": "&#216;",
+        "description": "Latin capital letter O with stroke (Latin capital letter O slash)";
+    }
+},map {
+    "Ugrave": map {
+        "character": "Ù",
+        "name": "Ugrave",
+        "escape-sequence": "&#217;",
+        "description": "Latin capital letter U with grave accent";
+    }
+},map {
+    "Uacute": map {
+        "character": "Ú",
+        "name": "Uacute",
+        "escape-sequence": "&#218;",
+        "description": "Latin capital letter U with acute accent";
+    }
+},map {
+    "Ucirc": map {
+        "character": "Û",
+        "name": "Ucirc",
+        "escape-sequence": "&#219;",
+        "description": "Latin capital letter U with circumflex";
+    }
+},map {
+    "Uuml": map {
+        "character": "Ü",
+        "name": "Uuml",
+        "escape-sequence": "&#220;",
+        "description": "Latin capital letter U with diaeresis";
+    }
+},map {
+    "Yacute": map {
+        "character": "Ý",
+        "name": "Yacute",
+        "escape-sequence": "&#221;",
+        "description": "Latin capital letter Y with acute accent";
+    }
+},map {
+    "THORN": map {
+        "character": "Þ",
+        "name": "THORN",
+        "escape-sequence": "&#222;",
+        "description": "Latin capital letter THORN";
+    }
+},map {
+    "szlig": map {
+        "character": "ß",
+        "name": "szlig",
+        "escape-sequence": "&#223;",
+        "description": "Latin small letter sharp s (ess-zed); see German Eszett";
+    }
+},map {
+    "agrave": map {
+        "character": "à",
+        "name": "agrave",
+        "escape-sequence": "&#224;",
+        "description": "Latin small letter a with grave accent";
+    }
+},map {
+    "aacute": map {
+        "character": "á",
+        "name": "aacute",
+        "escape-sequence": "&#225;",
+        "description": "Latin small letter a with acute accent";
+    }
+},map {
+    "acirc": map {
+        "character": "â",
+        "name": "acirc",
+        "escape-sequence": "&#226;",
+        "description": "Latin small letter a with circumflex";
+    }
+},map {
+    "atilde": map {
+        "character": "ã",
+        "name": "atilde",
+        "escape-sequence": "&#227;",
+        "description": "Latin small letter a with tilde";
+    }
+},map {
+    "auml": map {
+        "character": "ä",
+        "name": "auml",
+        "escape-sequence": "&#228;",
+        "description": "Latin small letter a with diaeresis";
+    }
+},map {
+    "aring": map {
+        "character": "å",
+        "name": "aring",
+        "escape-sequence": "&#229;",
+        "description": "Latin small letter a with ring above";
+    }
+},map {
+    "aelig": map {
+        "character": "æ",
+        "name": "aelig",
+        "escape-sequence": "&#230;",
+        "description": "Latin small letter ae (Latin small ligature ae)";
+    }
+},map {
+    "ccedil": map {
+        "character": "ç",
+        "name": "ccedil",
+        "escape-sequence": "&#231;",
+        "description": "Latin small letter c with cedilla";
+    }
+},map {
+    "egrave": map {
+        "character": "è",
+        "name": "egrave",
+        "escape-sequence": "&#232;",
+        "description": "Latin small letter e with grave accent";
+    }
+},map {
+    "eacute": map {
+        "character": "é",
+        "name": "eacute",
+        "escape-sequence": "&#233;",
+        "description": "Latin small letter e with acute accent";
+    }
+},map {
+    "ecirc": map {
+        "character": "ê",
+        "name": "ecirc",
+        "escape-sequence": "&#234;",
+        "description": "Latin small letter e with circumflex";
+    }
+},map {
+    "euml": map {
+        "character": "ë",
+        "name": "euml",
+        "escape-sequence": "&#235;",
+        "description": "Latin small letter e with diaeresis";
+    }
+},map {
+    "igrave": map {
+        "character": "ì",
+        "name": "igrave",
+        "escape-sequence": "&#236;",
+        "description": "Latin small letter i with grave accent";
+    }
+},map {
+    "iacute": map {
+        "character": "í",
+        "name": "iacute",
+        "escape-sequence": "&#237;",
+        "description": "Latin small letter i with acute accent";
+    }
+},map {
+    "icirc": map {
+        "character": "î",
+        "name": "icirc",
+        "escape-sequence": "&#238;",
+        "description": "Latin small letter i with circumflex";
+    }
+},map {
+    "iuml": map {
+        "character": "ï",
+        "name": "iuml",
+        "escape-sequence": "&#239;",
+        "description": "Latin small letter i with diaeresis";
+    }
+},map {
+    "eth": map {
+        "character": "ð",
+        "name": "eth",
+        "escape-sequence": "&#240;",
+        "description": "Latin small letter eth";
+    }
+},map {
+    "ntilde": map {
+        "character": "ñ",
+        "name": "ntilde",
+        "escape-sequence": "&#241;",
+        "description": "Latin small letter n with tilde";
+    }
+},map {
+    "ograve": map {
+        "character": "ò",
+        "name": "ograve",
+        "escape-sequence": "&#242;",
+        "description": "Latin small letter o with grave accent";
+    }
+},map {
+    "oacute": map {
+        "character": "ó",
+        "name": "oacute",
+        "escape-sequence": "&#243;",
+        "description": "Latin small letter o with acute accent";
+    }
+},map {
+    "ocirc": map {
+        "character": "ô",
+        "name": "ocirc",
+        "escape-sequence": "&#244;",
+        "description": "Latin small letter o with circumflex";
+    }
+},map {
+    "otilde": map {
+        "character": "õ",
+        "name": "otilde",
+        "escape-sequence": "&#245;",
+        "description": "Latin small letter o with tilde";
+    }
+},map {
+    "ouml": map {
+        "character": "ö",
+        "name": "ouml",
+        "escape-sequence": "&#246;",
+        "description": "Latin small letter o with diaeresis";
+    }
+},map {
+    "divide": map {
+        "character": "÷",
+        "name": "divide",
+        "escape-sequence": "&#247;",
+        "description": "division sign (obelus)";
+    }
+},map {
+    "oslash": map {
+        "character": "ø",
+        "name": "oslash",
+        "escape-sequence": "&#248;",
+        "description": "Latin small letter o with stroke (Latin small letter o slash)";
+    }
+},map {
+    "ugrave": map {
+        "character": "ù",
+        "name": "ugrave",
+        "escape-sequence": "&#249;",
+        "description": "Latin small letter u with grave accent";
+    }
+},map {
+    "uacute": map {
+        "character": "ú",
+        "name": "uacute",
+        "escape-sequence": "&#250;",
+        "description": "Latin small letter u with acute accent";
+    }
+},map {
+    "ucirc": map {
+        "character": "û",
+        "name": "ucirc",
+        "escape-sequence": "&#251;",
+        "description": "Latin small letter u with circumflex";
+    }
+},map {
+    "uuml": map {
+        "character": "ü",
+        "name": "uuml",
+        "escape-sequence": "&#252;",
+        "description": "Latin small letter u with diaeresis";
+    }
+},map {
+    "yacute": map {
+        "character": "ý",
+        "name": "yacute",
+        "escape-sequence": "&#253;",
+        "description": "Latin small letter y with acute accent";
+    }
+},map {
+    "thorn": map {
+        "character": "þ",
+        "name": "thorn",
+        "escape-sequence": "&#254;",
+        "description": "Latin small letter thorn";
+    }
+},map {
+    "yuml": map {
+        "character": "ÿ",
+        "name": "yuml",
+        "escape-sequence": "&#255;",
+        "description": "Latin small letter y with diaeresis";
+    }
+},map {
+    "OElig": map {
+        "character": "Œ",
+        "name": "OElig",
+        "escape-sequence": "&#338;",
+        "description": "Latin capital ligature oe";
+    }
+},map {
+    "oelig": map {
+        "character": "œ",
+        "name": "oelig",
+        "escape-sequence": "&#339;",
+        "description": "Latin small ligature oe";
+    }
+},map {
+    "Scaron": map {
+        "character": "Š",
+        "name": "Scaron",
+        "escape-sequence": "&#352;",
+        "description": "Latin capital letter s with caron";
+    }
+},map {
+    "scaron": map {
+        "character": "š",
+        "name": "scaron",
+        "escape-sequence": "&#353;",
+        "description": "Latin small letter s with caron";
+    }
+},map {
+    "Yuml": map {
+        "character": "Ÿ",
+        "name": "Yuml",
+        "escape-sequence": "&#376;",
+        "description": "Latin capital letter y with diaeresis";
+    }
+},map {
+    "fnof": map {
+        "character": "ƒ",
+        "name": "fnof",
+        "escape-sequence": "&#402;",
+        "description": "Latin small letter f with hook (function, florin)";
+    }
+},map {
+    "circ": map {
+        "character": "ˆ",
+        "name": "circ",
+        "escape-sequence": "&#710;",
+        "description": "modifier letter circumflex accent";
+    }
+},map {
+    "tilde": map {
+        "character": "˜",
+        "name": "tilde",
+        "escape-sequence": "&#732;",
+        "description": "small tilde";
+    }
+},map {
+    "Alpha": map {
+        "character": "Α",
+        "name": "Alpha",
+        "escape-sequence": "&#913;",
+        "description": "Greek capital letter Alpha";
+    }
+},map {
+    "Beta": map {
+        "character": "Β",
+        "name": "Beta",
+        "escape-sequence": "&#914;",
+        "description": "Greek capital letter Beta";
+    }
+},map {
+    "Gamma": map {
+        "character": "Γ",
+        "name": "Gamma",
+        "escape-sequence": "&#915;",
+        "description": "Greek capital letter Gamma";
+    }
+},map {
+    "Delta": map {
+        "character": "Δ",
+        "name": "Delta",
+        "escape-sequence": "&#916;",
+        "description": "Greek capital letter Delta";
+    }
+},map {
+    "Epsilon": map {
+        "character": "Ε",
+        "name": "Epsilon",
+        "escape-sequence": "&#917;",
+        "description": "Greek capital letter Epsilon";
+    }
+},map {
+    "Zeta": map {
+        "character": "Ζ",
+        "name": "Zeta",
+        "escape-sequence": "&#918;",
+        "description": "Greek capital letter Zeta";
+    }
+},map {
+    "Eta": map {
+        "character": "Η",
+        "name": "Eta",
+        "escape-sequence": "&#919;",
+        "description": "Greek capital letter Eta";
+    }
+},map {
+    "Theta": map {
+        "character": "Θ",
+        "name": "Theta",
+        "escape-sequence": "&#920;",
+        "description": "Greek capital letter Theta";
+    }
+},map {
+    "Iota": map {
+        "character": "Ι",
+        "name": "Iota",
+        "escape-sequence": "&#921;",
+        "description": "Greek capital letter Iota";
+    }
+},map {
+    "Kappa": map {
+        "character": "Κ",
+        "name": "Kappa",
+        "escape-sequence": "&#922;",
+        "description": "Greek capital letter Kappa";
+    }
+},map {
+    "Lambda": map {
+        "character": "Λ",
+        "name": "Lambda",
+        "escape-sequence": "&#923;",
+        "description": "Greek capital letter Lambda";
+    }
+},map {
+    "Mu": map {
+        "character": "Μ",
+        "name": "Mu",
+        "escape-sequence": "&#924;",
+        "description": "Greek capital letter Mu";
+    }
+},map {
+    "Nu": map {
+        "character": "Ν",
+        "name": "Nu",
+        "escape-sequence": "&#925;",
+        "description": "Greek capital letter Nu";
+    }
+},map {
+    "Xi": map {
+        "character": "Ξ",
+        "name": "Xi",
+        "escape-sequence": "&#926;",
+        "description": "Greek capital letter Xi";
+    }
+},map {
+    "Omicron": map {
+        "character": "Ο",
+        "name": "Omicron",
+        "escape-sequence": "&#927;",
+        "description": "Greek capital letter Omicron";
+    }
+},map {
+    "Pi": map {
+        "character": "Π",
+        "name": "Pi",
+        "escape-sequence": "&#928;",
+        "description": "Greek capital letter Pi";
+    }
+},map {
+    "Rho": map {
+        "character": "Ρ",
+        "name": "Rho",
+        "escape-sequence": "&#929;",
+        "description": "Greek capital letter Rho";
+    }
+},map {
+    "Sigma": map {
+        "character": "Σ",
+        "name": "Sigma",
+        "escape-sequence": "&#931;",
+        "description": "Greek capital letter Sigma";
+    }
+},map {
+    "Tau": map {
+        "character": "Τ",
+        "name": "Tau",
+        "escape-sequence": "&#932;",
+        "description": "Greek capital letter Tau";
+    }
+},map {
+    "Upsilon": map {
+        "character": "Υ",
+        "name": "Upsilon",
+        "escape-sequence": "&#933;",
+        "description": "Greek capital letter Upsilon";
+    }
+},map {
+    "Phi": map {
+        "character": "Φ",
+        "name": "Phi",
+        "escape-sequence": "&#934;",
+        "description": "Greek capital letter Phi";
+    }
+},map {
+    "Chi": map {
+        "character": "Χ",
+        "name": "Chi",
+        "escape-sequence": "&#935;",
+        "description": "Greek capital letter Chi";
+    }
+},map {
+    "Psi": map {
+        "character": "Ψ",
+        "name": "Psi",
+        "escape-sequence": "&#936;",
+        "description": "Greek capital letter Psi";
+    }
+},map {
+    "Omega": map {
+        "character": "Ω",
+        "name": "Omega",
+        "escape-sequence": "&#937;",
+        "description": "Greek capital letter Omega";
+    }
+},map {
+    "alpha": map {
+        "character": "α",
+        "name": "alpha",
+        "escape-sequence": "&#945;",
+        "description": "Greek small letter alpha";
+    }
+},map {
+    "beta": map {
+        "character": "β",
+        "name": "beta",
+        "escape-sequence": "&#946;",
+        "description": "Greek small letter beta";
+    }
+},map {
+    "gamma": map {
+        "character": "γ",
+        "name": "gamma",
+        "escape-sequence": "&#947;",
+        "description": "Greek small letter gamma";
+    }
+},map {
+    "delta": map {
+        "character": "δ",
+        "name": "delta",
+        "escape-sequence": "&#948;",
+        "description": "Greek small letter delta";
+    }
+},map {
+    "epsilon": map {
+        "character": "ε",
+        "name": "epsilon",
+        "escape-sequence": "&#949;",
+        "description": "Greek small letter epsilon";
+    }
+},map {
+    "zeta": map {
+        "character": "ζ",
+        "name": "zeta",
+        "escape-sequence": "&#950;",
+        "description": "Greek small letter zeta";
+    }
+},map {
+    "eta": map {
+        "character": "η",
+        "name": "eta",
+        "escape-sequence": "&#951;",
+        "description": "Greek small letter eta";
+    }
+},map {
+    "theta": map {
+        "character": "θ",
+        "name": "theta",
+        "escape-sequence": "&#952;",
+        "description": "Greek small letter theta";
+    }
+},map {
+    "iota": map {
+        "character": "ι",
+        "name": "iota",
+        "escape-sequence": "&#953;",
+        "description": "Greek small letter iota";
+    }
+},map {
+    "kappa": map {
+        "character": "κ",
+        "name": "kappa",
+        "escape-sequence": "&#954;",
+        "description": "Greek small letter kappa";
+    }
+},map {
+    "lambda": map {
+        "character": "λ",
+        "name": "lambda",
+        "escape-sequence": "&#955;",
+        "description": "Greek small letter lambda";
+    }
+},map {
+    "mu": map {
+        "character": "μ",
+        "name": "mu",
+        "escape-sequence": "&#956;",
+        "description": "Greek small letter mu";
+    }
+},map {
+    "nu": map {
+        "character": "ν",
+        "name": "nu",
+        "escape-sequence": "&#957;",
+        "description": "Greek small letter nu";
+    }
+},map {
+    "xi": map {
+        "character": "ξ",
+        "name": "xi",
+        "escape-sequence": "&#958;",
+        "description": "Greek small letter xi";
+    }
+},map {
+    "omicron": map {
+        "character": "ο",
+        "name": "omicron",
+        "escape-sequence": "&#959;",
+        "description": "Greek small letter omicron";
+    }
+},map {
+    "pi": map {
+        "character": "π",
+        "name": "pi",
+        "escape-sequence": "&#960;",
+        "description": "Greek small letter pi";
+    }
+},map {
+    "rho": map {
+        "character": "ρ",
+        "name": "rho",
+        "escape-sequence": "&#961;",
+        "description": "Greek small letter rho";
+    }
+},map {
+    "sigmaf": map {
+        "character": "ς",
+        "name": "sigmaf",
+        "escape-sequence": "&#962;",
+        "description": "Greek small letter final sigma";
+    }
+},map {
+    "sigma": map {
+        "character": "σ",
+        "name": "sigma",
+        "escape-sequence": "&#963;",
+        "description": "Greek small letter sigma";
+    }
+},map {
+    "tau": map {
+        "character": "τ",
+        "name": "tau",
+        "escape-sequence": "&#964;",
+        "description": "Greek small letter tau";
+    }
+},map {
+    "upsilon": map {
+        "character": "υ",
+        "name": "upsilon",
+        "escape-sequence": "&#965;",
+        "description": "Greek small letter upsilon";
+    }
+},map {
+    "phi": map {
+        "character": "φ",
+        "name": "phi",
+        "escape-sequence": "&#966;",
+        "description": "Greek small letter phi";
+    }
+},map {
+    "chi": map {
+        "character": "χ",
+        "name": "chi",
+        "escape-sequence": "&#967;",
+        "description": "Greek small letter chi";
+    }
+},map {
+    "psi": map {
+        "character": "ψ",
+        "name": "psi",
+        "escape-sequence": "&#968;",
+        "description": "Greek small letter psi";
+    }
+},map {
+    "omega": map {
+        "character": "ω",
+        "name": "omega",
+        "escape-sequence": "&#969;",
+        "description": "Greek small letter omega";
+    }
+},map {
+    "thetasym": map {
+        "character": "ϑ",
+        "name": "thetasym",
+        "escape-sequence": "&#977;",
+        "description": "Greek theta symbol";
+    }
+},map {
+    "upsih": map {
+        "character": "ϒ",
+        "name": "upsih",
+        "escape-sequence": "&#978;",
+        "description": "Greek Upsilon with hook symbol";
+    }
+},map {
+    "piv": map {
+        "character": "ϖ",
+        "name": "piv",
+        "escape-sequence": "&#982;",
+        "description": "Greek pi symbol";
+    }
+},map {
+    "ensp": map {
+        "character": " ",
+        "name": "ensp",
+        "escape-sequence": "&#8194;",
+        "description": "en space";
+    }
+},map {
+    "emsp": map {
+        "character": " ",
+        "name": "emsp",
+        "escape-sequence": "&#8195;",
+        "description": "em space";
+    }
+},map {
+    "thinsp": map {
+        "character": " ",
+        "name": "thinsp",
+        "escape-sequence": "&#8201;",
+        "description": "thin space";
+    }
+},map {
+    "zwnj": map {
+        "character": "‌",
+        "name": "zwnj",
+        "escape-sequence": "&#8204;",
+        "description": "zero-width non-joiner";
+    }
+},map {
+    "zwj": map {
+        "character": "‍",
+        "name": "zwj",
+        "escape-sequence": "&#8205;",
+        "description": "zero-width joiner";
+    }
+},map {
+    "lrm": map {
+        "character": "‎",
+        "name": "lrm",
+        "escape-sequence": "&#8206;",
+        "description": "left-to-right mark";
+    }
+},map {
+    "rlm": map {
+        "character": "‏",
+        "name": "rlm",
+        "escape-sequence": "&#8207;",
+        "description": "right-to-left mark";
+    }
+},map {
+    "ndash": map {
+        "character": "–",
+        "name": "ndash",
+        "escape-sequence": "&#8211;",
+        "description": "en dash";
+    }
+},map {
+    "mdash": map {
+        "character": "—",
+        "name": "mdash",
+        "escape-sequence": "&#8212;",
+        "description": "em dash";
+    }
+},map {
+    "lsquo": map {
+        "character": "‘",
+        "name": "lsquo",
+        "escape-sequence": "&#8216;",
+        "description": "left single quotation mark";
+    }
+},map {
+    "rsquo": map {
+        "character": "’",
+        "name": "rsquo",
+        "escape-sequence": "&#8217;",
+        "description": "right single quotation mark";
+    }
+},map {
+    "sbquo": map {
+        "character": "‚",
+        "name": "sbquo",
+        "escape-sequence": "&#8218;",
+        "description": "single low-9 quotation mark";
+    }
+},map {
+    "ldquo": map {
+        "character": "“",
+        "name": "ldquo",
+        "escape-sequence": "&#8220;",
+        "description": "left double quotation mark";
+    }
+},map {
+    "rdquo": map {
+        "character": "”",
+        "name": "rdquo",
+        "escape-sequence": "&#8221;",
+        "description": "right double quotation mark";
+    }
+},map {
+    "bdquo": map {
+        "character": "„",
+        "name": "bdquo",
+        "escape-sequence": "&#8222;",
+        "description": "double low-9 quotation mark";
+    }
+},map {
+    "dagger": map {
+        "character": "†",
+        "name": "dagger",
+        "escape-sequence": "&#8224;",
+        "description": "dagger, obelisk";
+    }
+},map {
+    "Dagger": map {
+        "character": "‡",
+        "name": "Dagger",
+        "escape-sequence": "&#8225;",
+        "description": "double dagger, double obelisk";
+    }
+},map {
+    "bull": map {
+        "character": "•",
+        "name": "bull",
+        "escape-sequence": "&#8226;",
+        "description": "bullet (black small circle)";
+    }
+},map {
+    "hellip": map {
+        "character": "…",
+        "name": "hellip",
+        "escape-sequence": "&#8230;",
+        "description": "horizontal ellipsis (three dot leader)";
+    }
+},map {
+    "permil": map {
+        "character": "‰",
+        "name": "permil",
+        "escape-sequence": "&#8240;",
+        "description": "per mille sign";
+    }
+},map {
+    "prime": map {
+        "character": "′",
+        "name": "prime",
+        "escape-sequence": "&#8242;",
+        "description": "prime (minutes, feet)";
+    }
+},map {
+    "Prime": map {
+        "character": "″",
+        "name": "Prime",
+        "escape-sequence": "&#8243;",
+        "description": "double prime (seconds, inches)";
+    }
+},map {
+    "lsaquo": map {
+        "character": "‹",
+        "name": "lsaquo",
+        "escape-sequence": "&#8249;",
+        "description": "single left-pointing angle quotation mark";
+    }
+},map {
+    "rsaquo": map {
+        "character": "›",
+        "name": "rsaquo",
+        "escape-sequence": "&#8250;",
+        "description": "single right-pointing angle quotation mark";
+    }
+},map {
+    "oline": map {
+        "character": "‾",
+        "name": "oline",
+        "escape-sequence": "&#8254;",
+        "description": "overline (spacing overscore)";
+    }
+},map {
+    "frasl": map {
+        "character": "⁄",
+        "name": "frasl",
+        "escape-sequence": "&#8260;",
+        "description": "fraction slash (solidus)";
+    }
+},map {
+    "euro": map {
+        "character": "€",
+        "name": "euro",
+        "escape-sequence": "&#8364;",
+        "description": "euro sign";
+    }
+},map {
+    "image": map {
+        "character": "ℑ",
+        "name": "image",
+        "escape-sequence": "&#8465;",
+        "description": "black-letter capital I (imaginary part)";
+    }
+},map {
+    "weierp": map {
+        "character": "℘",
+        "name": "weierp",
+        "escape-sequence": "&#8472;",
+        "description": "script capital P (power set, Weierstrass p)";
+    }
+},map {
+    "real": map {
+        "character": "ℜ",
+        "name": "real",
+        "escape-sequence": "&#8476;",
+        "description": "black-letter capital R (real part symbol)";
+    }
+},map {
+    "trade": map {
+        "character": "™",
+        "name": "trade",
+        "escape-sequence": "&#8482;",
+        "description": "trademark symbol";
+    }
+},map {
+    "alefsym": map {
+        "character": "ℵ",
+        "name": "alefsym",
+        "escape-sequence": "&#8501;",
+        "description": "alef symbol (first transfinite cardinal)";
+    }
+},map {
+    "larr": map {
+        "character": "←",
+        "name": "larr",
+        "escape-sequence": "&#8592;",
+        "description": "leftwards arrow";
+    }
+},map {
+    "uarr": map {
+        "character": "↑",
+        "name": "uarr",
+        "escape-sequence": "&#8593;",
+        "description": "upwards arrow";
+    }
+},map {
+    "rarr": map {
+        "character": "→",
+        "name": "rarr",
+        "escape-sequence": "&#8594;",
+        "description": "rightwards arrow";
+    }
+},map {
+    "darr": map {
+        "character": "↓",
+        "name": "darr",
+        "escape-sequence": "&#8595;",
+        "description": "downwards arrow";
+    }
+},map {
+    "harr": map {
+        "character": "↔",
+        "name": "harr",
+        "escape-sequence": "&#8596;",
+        "description": "left right arrow";
+    }
+},map {
+    "crarr": map {
+        "character": "↵",
+        "name": "crarr",
+        "escape-sequence": "&#8629;",
+        "description": "downwards arrow with corner leftwards (carriage return)";
+    }
+},map {
+    "lArr": map {
+        "character": "⇐",
+        "name": "lArr",
+        "escape-sequence": "&#8656;",
+        "description": "leftwards double arrow";
+    }
+},map {
+    "uArr": map {
+        "character": "⇑",
+        "name": "uArr",
+        "escape-sequence": "&#8657;",
+        "description": "upwards double arrow";
+    }
+},map {
+    "rArr": map {
+        "character": "⇒",
+        "name": "rArr",
+        "escape-sequence": "&#8658;",
+        "description": "rightwards double arrow";
+    }
+},map {
+    "dArr": map {
+        "character": "⇓",
+        "name": "dArr",
+        "escape-sequence": "&#8659;",
+        "description": "downwards double arrow";
+    }
+},map {
+    "hArr": map {
+        "character": "⇔",
+        "name": "hArr",
+        "escape-sequence": "&#8660;",
+        "description": "left right double arrow";
+    }
+},map {
+    "forall": map {
+        "character": "∀",
+        "name": "forall",
+        "escape-sequence": "&#8704;",
+        "description": "for all";
+    }
+},map {
+    "part": map {
+        "character": "∂",
+        "name": "part",
+        "escape-sequence": "&#8706;",
+        "description": "partial differential";
+    }
+},map {
+    "exist": map {
+        "character": "∃",
+        "name": "exist",
+        "escape-sequence": "&#8707;",
+        "description": "there exists";
+    }
+},map {
+    "empty": map {
+        "character": "∅",
+        "name": "empty",
+        "escape-sequence": "&#8709;",
+        "description": "empty set (null set); see also U+8960, ⌀";
+    }
+},map {
+    "nabla": map {
+        "character": "∇",
+        "name": "nabla",
+        "escape-sequence": "&#8711;",
+        "description": "del or nabla (vector differential operator)";
+    }
+},map {
+    "isin": map {
+        "character": "∈",
+        "name": "isin",
+        "escape-sequence": "&#8712;",
+        "description": "element of";
+    }
+},map {
+    "notin": map {
+        "character": "∉",
+        "name": "notin",
+        "escape-sequence": "&#8713;",
+        "description": "not an element of";
+    }
+},map {
+    "ni": map {
+        "character": "∋",
+        "name": "ni",
+        "escape-sequence": "&#8715;",
+        "description": "contains as member";
+    }
+},map {
+    "prod": map {
+        "character": "∏",
+        "name": "prod",
+        "escape-sequence": "&#8719;",
+        "description": "n-ary product (product sign)";
+    }
+},map {
+    "sum": map {
+        "character": "∑",
+        "name": "sum",
+        "escape-sequence": "&#8721;",
+        "description": "n-ary summation";
+    }
+},map {
+    "minus": map {
+        "character": "−",
+        "name": "minus",
+        "escape-sequence": "&#8722;",
+        "description": "minus sign";
+    }
+},map {
+    "lowast": map {
+        "character": "∗",
+        "name": "lowast",
+        "escape-sequence": "&#8727;",
+        "description": "asterisk operator";
+    }
+},map {
+    "radic": map {
+        "character": "√",
+        "name": "radic",
+        "escape-sequence": "&#8730;",
+        "description": "square root (radical sign)";
+    }
+},map {
+    "prop": map {
+        "character": "∝",
+        "name": "prop",
+        "escape-sequence": "&#8733;",
+        "description": "proportional to";
+    }
+},map {
+    "infin": map {
+        "character": "∞",
+        "name": "infin",
+        "escape-sequence": "&#8734;",
+        "description": "infinity";
+    }
+},map {
+    "ang": map {
+        "character": "∠",
+        "name": "ang",
+        "escape-sequence": "&#8736;",
+        "description": "angle";
+    }
+},map {
+    "and": map {
+        "character": "∧",
+        "name": "and",
+        "escape-sequence": "&#8743;",
+        "description": "logical and (wedge)";
+    }
+},map {
+    "or": map {
+        "character": "∨",
+        "name": "or",
+        "escape-sequence": "&#8744;",
+        "description": "logical or (vee)";
+    }
+},map {
+    "cap": map {
+        "character": "∩",
+        "name": "cap",
+        "escape-sequence": "&#8745;",
+        "description": "intersection (cap)";
+    }
+},map {
+    "cup": map {
+        "character": "∪",
+        "name": "cup",
+        "escape-sequence": "&#8746;",
+        "description": "union (cup)";
+    }
+},map {
+    "int": map {
+        "character": "∫",
+        "name": "int",
+        "escape-sequence": "&#8747;",
+        "description": "integral";
+    }
+},map {
+    "there4": map {
+        "character": "∴",
+        "name": "there4",
+        "escape-sequence": "&#8756;",
+        "description": "therefore sign";
+    }
+},map {
+    "sim": map {
+        "character": "∼",
+        "name": "sim",
+        "escape-sequence": "&#8764;",
+        "description": "tilde operator (varies with, similar to)";
+    }
+},map {
+    "cong": map {
+        "character": "≅",
+        "name": "cong",
+        "escape-sequence": "&#8773;",
+        "description": "congruent to";
+    }
+},map {
+    "asymp": map {
+        "character": "≈",
+        "name": "asymp",
+        "escape-sequence": "&#8776;",
+        "description": "almost equal to (asymptotic to)";
+    }
+},map {
+    "ne": map {
+        "character": "≠",
+        "name": "ne",
+        "escape-sequence": "&#8800;",
+        "description": "not equal to";
+    }
+},map {
+    "equiv": map {
+        "character": "≡",
+        "name": "equiv",
+        "escape-sequence": "&#8801;",
+        "description": "identical to; sometimes used for 'equivalent to'";
+    }
+},map {
+    "le": map {
+        "character": "≤",
+        "name": "le",
+        "escape-sequence": "&#8804;",
+        "description": "less-than or equal to";
+    }
+},map {
+    "ge": map {
+        "character": "≥",
+        "name": "ge",
+        "escape-sequence": "&#8805;",
+        "description": "greater-than or equal to";
+    }
+},map {
+    "sub": map {
+        "character": "⊂",
+        "name": "sub",
+        "escape-sequence": "&#8834;",
+        "description": "subset of";
+    }
+},map {
+    "sup": map {
+        "character": "⊃",
+        "name": "sup",
+        "escape-sequence": "&#8835;",
+        "description": "superset of";
+    }
+},map {
+    "nsub": map {
+        "character": "⊄",
+        "name": "nsub",
+        "escape-sequence": "&#8836;",
+        "description": "not a subset of";
+    }
+},map {
+    "sube": map {
+        "character": "⊆",
+        "name": "sube",
+        "escape-sequence": "&#8838;",
+        "description": "subset of or equal to";
+    }
+},map {
+    "supe": map {
+        "character": "⊇",
+        "name": "supe",
+        "escape-sequence": "&#8839;",
+        "description": "superset of or equal to";
+    }
+},map {
+    "oplus": map {
+        "character": "⊕",
+        "name": "oplus",
+        "escape-sequence": "&#8853;",
+        "description": "circled plus (direct sum)";
+    }
+},map {
+    "otimes": map {
+        "character": "⊗",
+        "name": "otimes",
+        "escape-sequence": "&#8855;",
+        "description": "circled times (vector product)";
+    }
+},map {
+    "perp": map {
+        "character": "⊥",
+        "name": "perp",
+        "escape-sequence": "&#8869;",
+        "description": "up tack (orthogonal to, perpendicular)";
+    }
+},map {
+    "sdot": map {
+        "character": "⋅",
+        "name": "sdot",
+        "escape-sequence": "&#8901;",
+        "description": "dot operator";
+    }
+},map {
+    "lceil": map {
+        "character": "⌈",
+        "name": "lceil",
+        "escape-sequence": "&#8968;",
+        "description": "left ceiling (APL upstile)";
+    }
+},map {
+    "rceil": map {
+        "character": "⌉",
+        "name": "rceil",
+        "escape-sequence": "&#8969;",
+        "description": "right ceiling";
+    }
+},map {
+    "lfloor": map {
+        "character": "⌊",
+        "name": "lfloor",
+        "escape-sequence": "&#8970;",
+        "description": "left floor (APL downstile)";
+    }
+},map {
+    "rfloor": map {
+        "character": "⌋",
+        "name": "rfloor",
+        "escape-sequence": "&#8971;",
+        "description": "right floor";
+    }
+},map {
+    "lang": map {
+        "character": "〈",
+        "name": "lang",
+        "escape-sequence": "&#9001;",
+        "description": "left-pointing angle bracket (bra)";
+    }
+},map {
+    "rang": map {
+        "character": "〉",
+        "name": "rang",
+        "escape-sequence": "&#9002;",
+        "description": "right-pointing angle bracket (ket)";
+    }
+},map {
+    "loz": map {
+        "character": "◊",
+        "name": "loz",
+        "escape-sequence": "&#9674;",
+        "description": "lozenge";
+    }
+},map {
+    "spades": map {
+        "character": "♠",
+        "name": "spades",
+        "escape-sequence": "&#9824;",
+        "description": "black spade suit";
+    }
+},map {
+    "clubs": map {
+        "character": "♣",
+        "name": "clubs",
+        "escape-sequence": "&#9827;",
+        "description": "black club suit (shamrock)";
+    }
+},map {
+    "hearts": map {
+        "character": "♥",
+        "name": "hearts",
+        "escape-sequence": "&#9829;",
+        "description": "black heart suit (valentine)";
+    }
+},map {
+    "diams": map {
+        "character": "♦",
+        "name": "diams",
+        "escape-sequence": "&#9830;",
+        "description": "black diamond suit";
+    }
+}

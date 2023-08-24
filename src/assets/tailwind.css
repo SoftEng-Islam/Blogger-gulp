@@ -1,0 +1,450 @@
+@tailwind base;
+
+@layer base {
+    img { @apply rounded-md; }
+    h1 { @apply text-5xl font-bold; }
+    h2 { @apply text-3xl font-bold; }
+    h3 { @apply text-2xl font-bold; }
+    h4 { @apply text-xl font-bold; }
+    h5 { @apply text-lg font-bold; }
+    p { @apply text-base; }
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+@tailwind variants;
+
+:root {
+    --dark1: #2c313b;
+    --dark2: #1f2529;
+    --dark3: #1a202b;
+    --dark4: #12181b;
+
+    --light1: #ffffff;
+    --light2: #f0f2f7;
+    /* --light3: #f0f2f7;
+    --light4: #f0f2f7; */
+
+    --alpha-bg: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
+
+    --favColor: #6b48ff !important;
+
+    --altImage: ;
+}
+
+/* Global CSS */
+
+.status-msg-hidden{
+    @apply hidden;
+}
+
+.c1{background: #004fc5;}
+.c2{background: #ff1e56;}
+.c3{background: #c908e0;}
+.c4{background: #f7a205;}
+.c5{background: #ff01a3;}
+.c6{background: #39b209;}
+.c7{background: #9c1600;}
+.c8{background: #1687F7;}
+.c9{background: #fc5d00;}
+
+blockquote {
+	@apply
+		relative p-9 font-bold
+		rounded-3xl mt-12 mb-10 leading-6 text-2xl
+		border-4 border-[var(--favColor)]
+	;
+}
+blockquote:before {
+	@apply text-white bg-[var(--favColor)] outline outline-8 outline-white dark:outline-[var(--dark4)]
+	content-['"'] text-center top-[-24px] rounded-md
+	w-10 h-10 absolute text-[4rem] leading-[4rem]
+	;
+}
+blockquote > p {
+	@apply text-base opacity-90 mt-6;
+}
+blockquote > p strong {
+	@apply font-bold
+}
+.selected{ @apply text-[var(--favColor)] font-bold ;}
+
+.non-bg { /* This wok when non image found */
+    @apply bg-cover;
+    background-image:var(--altImage);
+}
+
+.ownContiner {
+	@apply px-3 sm:px-6 md:px-12 lg:px-14 xl:px-20;
+}
+
+.widget-title:after,
+.widget-title:before {
+    @apply absolute h-[3px] bottom-[-14px] bg-[var(--favColor)];
+    content: "";
+}
+.widget-title:after {
+    @apply w-[0.8rem] left-[5.4rem];
+}
+.widget-title:before {
+    @apply  w-20 left-0;
+}
+
+
+/* End Global */
+
+
+
+
+/* Header */
+.fixed-header {
+    @apply fixed top-0 left-0 w-full ;
+}
+/* End Header */
+
+
+
+
+/* Popular Posts */
+.widget.FeaturedPost {
+    @apply relative mb-20
+;}
+.widget.FeaturedPost .title {
+    @apply text-black dark:text-white;
+}
+/* End Popular Posts */
+
+
+
+.innerBottomShadow::before {
+        @apply
+            absolute
+            top-0
+            left-0
+            w-full
+            h-full
+            z-10
+        ;
+        content: "";
+        /* z-index: 2; */
+        transition: all .4s;
+        background-image: var(--alpha-bg);
+}
+
+
+
+/* Aside ======================= */
+aside .widget.BlogArchive{
+    @apply
+        my-4
+        p-2
+        pl-4
+        bg-[var(--light1)]
+        dark:bg-[var(--dark4)]
+        rounded-lg
+        text-[var(--dark4)]
+        dark:text-[var(--light1)]
+        shadow-lg
+    ;
+}
+aside .widget.BlogArchive h2{
+    @apply
+        mb-3
+    ;
+}
+aside .widget.BlogArchive .post-count-link
+aside .widget.BlogArchive .post-count{
+    @apply font-bold;
+}
+
+aside .widget.BlogArchive ul.posts > li {
+    @apply
+        text-[var(--dark1)]
+        dark:text-[var(--light2)]
+    ;
+}
+
+
+/*---- label */
+.widget.Label {
+    @apply
+        my-4
+        p-2
+        pl-4
+        bg-[var(--light1)]
+        dark:bg-[var(--dark4)]
+        rounded-lg
+        text-[var(--light1)]
+        pb-5
+        shadow-lg
+    ;
+}
+.widget.Label h2{
+    @apply
+        mb-5
+    ;
+}
+.widget.Label ul {
+    @apply
+        flex
+        flex-wrap
+        gap-2
+}
+.widget.Label ul li {
+    @apply
+        px-3
+        py-1
+        rounded-full
+        font-bold
+        cursor-pointer
+        hover:opacity-50
+        duration-200
+}
+.widget.Label ul li a{
+    @apply
+        py-4
+        px-2
+}
+
+/* End Label */
+/* Start ADS */
+aside .widget.HTML {
+    @apply h-[300px] w-full bg-[var(--light1)] dark:bg-[var(--dark4)] text-[var(--dark4)]
+        dark:text-[var(--light1)] shadow-lg flex items-center justify-center rounded-lg ;
+}
+aside .aside-ads-2, aside .aside-ads-3 {
+    @apply font-bold text-xl ;
+}
+/* End ADS */
+/*------------------- End aside */
+
+
+
+
+
+/* Blog Posts */
+.widget.Blog {
+    @apply flex flex-col items-center sm:items-start ;
+}
+/* Posts In Home Page */
+.widget.Blog .home-posts-headline.title-wrap.Label {
+    @apply w-full mb-14 text-[var(--dark4)] dark:text-[var(--light1)];
+}
+body.same .blog-posts {
+    @apply pr-14 ;
+}
+body.same .blog-posts.hfeed.container {
+    @apply flex flex-row flex-wrap gap-10 justify-center sm:justify-start pr-0 sm:pr-14
+	text-[var(--dark4)] dark:text-[var(--light1)] w-full pt-10 mb-10;
+}
+body.same .blog-posts.hfeed.container .blog-post.hentry {
+    @apply w-80 rounded-xl overflow-hidden bg-[var(--light2)] dark:bg-[var(--dark3)] shadow-lg ;
+}
+body.same .blog-posts.hfeed.container .blog-post.hentry .post-image-wrap{
+    @apply w-full h-52 overflow-hidden ;
+}
+body.same .blog-posts.hfeed.container .blog-post.hentry .post-image-wrap img {
+    @apply duration-200 hover:scale-125 ;
+}
+body.same .blog-posts.hfeed.container .blog-post.hentry .post-info{
+    @apply mt-5 p-5 flex flex-col gap-3 ;
+}
+body.same .blog-posts.hfeed.container .blog-post.hentry .post-info .post-tag{
+    @apply w-fit rounded-full py-1 px-3 font-bold text-[var(--light1)] bg-[var(--favColor)] ;
+}
+body.same .blog-posts.hfeed.container .blog-post.hentry .post-info .read-more,
+body.same .blog-posts.hfeed.container .blog-post.hentry .post-info .post-title {
+    @apply hover:text-blue-500 ;
+}
+/* .body.same .blog-pager-older-link {
+	@apply ;
+} */
+/* End Posts In Home Page and Search */
+
+
+body.isSingleItem .widget.Blog .blog-posts.hfeed {
+    @apply flex flex-col items-center gap-y-4 text-[var(--dark4)]
+    dark:text-[var(--light1)] w-full md:w-[90%] lg:w-[80%] xl:w-[70%] ;
+}
+
+body.isSingleItem  .post-labels {
+    @apply flex gap-x-2 my-14 ;
+}
+body.isSingleItem  .post-labels .label-head.Label > a {
+    @apply py-1 px-4 rounded-full bg-[var(--favColor)] text-[var(--light1)]
+    cursor-pointer hover:opacity-50 shadow-lg uppercase ;
+}
+body.isSingleItem .widget.Blog .blog-posts.hfeed .date-outer .date-posts {
+    @apply flex flex-col gap-5 ;
+}
+body.isSingleItem .widget.Blog .blog-posts.hfeed .date-outer .date-posts .post-outer  {
+    @apply w-full flex flex-col items-center overflow-hidden;
+}
+body.isSingleItem .hentry {
+    @apply relative flex flex-col items-start justify-start
+    gap-y-6 border-b border-gray-500 pb-14 mb-14 w-full ;
+}
+body.isSingleItem .hentry .post-body.post-content {
+    @apply mt-14 ;
+}
+
+
+
+body.isSingleItem .widget.Blog .blog-posts.hfeed .date-outer .date-posts .post-outer .hentry .post-title.entry-title {
+    @apply text-[var(--dark4)] dark:text-[var(--light1)] ;
+}
+body.isSingleItem .widget.Blog .post-body.entry-content{
+    @apply text-xl leading-relaxed flex flex-col items-start ;
+}
+body.isSingleItem .widget.Blog .post-body.entry-content * {
+    @apply mx-0;
+}
+body.isSingleItem .widget.Blog .blog-post.hfeed .date-outer .date-posts .post-outer .hentry * div {
+    @apply flex flex-col items-center justify-start gap-y-6 ;
+}
+body.isSingleItem .widget.Blog  .blog-post.hentry.item-post  * img {
+    @apply border border-gray-500 shadow-sm  rounded-2xl;
+}
+body.isSingleItem .widget.Blog .blog-post.hfeed .date-outer .date-posts .post-outer .hentry .post-footer {
+    @apply w-full flex flex-wrap justify-between my-14 gap-x-2 ;
+}
+body.isSingleItem .widget.Blog .blog-post.hfeed .date-outer .date-posts .post-outer .hentry .post-footer .post-footer-line {
+    @apply w-full flex flex-row flex-wrap gap-x-2 ;
+}
+
+
+/* Comments */
+.comments.embed {
+	@apply w-full
+}
+body.isSingleItem .widget.Blog .blog-post-comments {
+    @apply w-full flex flex-col gap-y-2 items-start my-14 rounded-lg
+        shadow-2xl bg-[var(--light2)] dark:bg-[var(--dark2)] px-4 py-6 ;
+}
+body.isSingleItem .comment-form ,
+body.isSingleItem .comments-content,
+body.isSingleItem .comment-holder {
+    @apply w-full ;
+}
+
+body.isSingleItem .widget.Blog .blog-post-comments  .comment-form ol {
+    @apply my-7 ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  div > ol > li.comment {
+    @apply my-7 flex flex-wrap flex-row gap-x-4 items-center
+        p-5 rounded-xl bg-[var(--light1)] dark:bg-[var(--dark1)] shadow-lg ;
+}
+body.isSingleItem li.comment .comment-replies {
+    @apply w-full scale-90 bg-transparent rounded-lg ;
+}
+body.isSingleItem li.comment .comment-replies li.comment{
+    @apply my-7 flex flex-wrap flex-row gap-4 items-center
+        p-5 rounded-xl shadow-lg bg-gray-200 dark:bg-[var(--dark3)] ;
+}
+body.isSingleItem .widget.Blog .post-outer li.comment > .comment-replies ol div li.comment .comment-content{
+    @apply w-full text-xl p-4 overflow-hidden
+        bg-[var(--light2)] dark:bg-[var(--dark1)] rounded-lg ;
+}
+body.isSingleItem li.comment .comment-replies li.comment .comment-replies {
+    @apply hidden ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment .avatar-image-container {
+    @apply h-14 w-14 mr-5 ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment .avatar-image-container img{
+    @apply w-full h-full ;
+}
+body.isSingleItem .widget.Blog .comment-block  {
+    @apply flex flex-col gap-4 grow ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments ol li.comment  .comment-block .comment-header{
+    @apply flex flex-row gap-2 text-blue-500 ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment  .comment-block .comment-header .user {
+    @apply font-bold text-[var(--favColor)] hover:opacity-50 ;
+}
+
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment  .comment-block .comment-content {
+    @apply w-full text-xl p-4 overflow-hidden
+        bg-[var(--light2)] dark:bg-[var(--dark2)] rounded-lg ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment  .comment-block .comment-actions{
+    @apply flex flex-row gap-x-4 ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment  .comment-block .comment-actions > a{
+    @apply text-green-500 p-3 font-bold pl-0 hover:opacity-50 ;
+}
+body.isSingleItem .widget.Blog .blog-post-comments  ol li.comment  .comment-block .comment-actions span{
+    @apply text-red-500 p-3 pl-0 font-bold hover:opacity-50 ;
+}
+body.isSingleItem .blog-post-comments  iframe {
+    @apply w-[90%] my-10 mx-auto rounded-lg overflow-hidden shadow-lg ;
+}
+
+
+body.isSingleItem .blog-pager {
+    @apply w-full md:w-[90%] lg:w-[80%] xl:w-[70%] flex flex-row items-center
+        gap-x-4 p-4 text-[var(--dark4)] dark:text-[var(--light1)] font-bold text-lg ;
+}
+.blog-pager span  {
+    @apply rounded-md bg-yellow-500 p-3 shadow-md ;
+}
+.blog-pager .home-link {
+    @apply ml-auto p-3 bg-green-500 rounded-md shadow-md ;
+}
+
+/* End Blog Posts */
+
+
+
+
+/* Search */
+.SearchPage .status-msg-wrap{
+    @apply w-full bg-green-500 p-4 rounded-lg font-bold text-lg ;
+}
+body.SearchPage .status-msg-wrap a{
+    @apply text-[var(--dark4)] ;
+}
+
+body.SearchPage .blog-post.hfeed > .date-outer {
+    @apply scale-90 ;
+}
+
+body.SearchPage .date-posts {
+    @apply p-6 rounded-xl bg-slate-700 ;
+}
+
+body.SearchPage .hentry {
+    @apply border-none ;
+}
+body.SearchPage .status-msg-body b{
+    @apply italic underline mx-2 ;
+}
+body.SearchPage .status-msg-body a {
+    @apply underline hover:opacity-50 float-right mx-10 ;
+}
+
+
+
+
+/* Ads */
+.medHeader .ADS.section {
+	@apply
+		h-36 w-[90%] lg:w-[60%]
+}
+.medHeader .widget.HTML {
+    @apply
+       h-full w-full bg-[var(--light2)] dark:bg-[var(--dark2)] text-[var(--dark4)]
+        dark:text-[var(--light1)] shadow-lg flex items-center justify-center rounded-md ;
+}
+.med-ads-here{
+    @apply font-bold text-xl ;
+}
+
+
+/* Footer ============================= */
+
+/* End Footer ============================= */

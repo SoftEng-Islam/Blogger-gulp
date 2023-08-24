@@ -1,0 +1,84 @@
+{
+    "kind": "blogger#postList",
+    "items": [
+      {
+        "kind": "blogger#post",
+        "id": "8539934086417240116",
+        "blog": {
+          "id": "1949113758405332550"
+        },
+        "published": "2023-06-28T04:42:00-07:00",
+        "updated": "2023-07-01T07:55:19-07:00",
+        "url": "http://galaxy-developer-area.blogspot.com/2023/06/lorem-ipsum-simply-dummy-text-of_28.html",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts/8539934086417240116",
+        "title": "hrthrthrthtr",
+        "content": "\u003cp\u003e\u003c/p\u003e\u003cdiv class=\"separator\" style=\"clear: both; text-align: center;\"\u003e\u003ca href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgclk_tkWyHLjFrnQYVrUMhmfMTGxRh1w-6RK7QpxIO8KIbuVoVXqCB2ixgid-2ssMb1Q0XY1WrXeODO6eOoyAA6HF19iulxhXOM6ERApmNqNFdxvCldSD5Cc6pF-UCe1rbm2aAYZiIYXxrIYLjfceA8aGkj00COjd52V-wUd4L674OlaI3GTSVlW7DM2E/s1200/VueJS_1.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"\u003e\u003cimg border=\"0\" data-original-height=\"900\" data-original-width=\"1200\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgclk_tkWyHLjFrnQYVrUMhmfMTGxRh1w-6RK7QpxIO8KIbuVoVXqCB2ixgid-2ssMb1Q0XY1WrXeODO6eOoyAA6HF19iulxhXOM6ERApmNqNFdxvCldSD5Cc6pF-UCe1rbm2aAYZiIYXxrIYLjfceA8aGkj00COjd52V-wUd4L674OlaI3GTSVlW7DM2E/s320/VueJS_1.png\" width=\"320\" /\u003e\u003c/a\u003e\u003c/div\u003e\u003cbr /\u003e\u003cp\u003e\u003c/p\u003e\u003cblockquote style=\"border: none; margin: 0 0 0 40px; padding: 0px;\"\u003e\u003cp style=\"text-align: left;\"\u003e&nbsp;\u003cstrong style=\"background-color: white; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; margin: 0px; padding: 0px; text-align: justify;\"\u003eLorem Ipsum\u003c/strong\u003e\u003cspan style=\"background-color: white; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\"\u003e&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003c/span\u003e\u003c/p\u003e\u003c/blockquote\u003e",
+        "author": {
+          "id": "08454703556955493115",
+          "displayName": "GDA",
+          "url": "https://www.blogger.com/profile/08454703556955493115",
+          "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+          }
+        },
+        "replies": {
+          "totalItems": "0",
+          "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts/8539934086417240116/comments"
+        },
+        "etag": "\"dGltZXN0YW1wOiAxNjg4MjIzMzE5ODU0Cm9mZnNldDogLTI1MjAwMDAwCg\""
+      },
+      {
+        "kind": "blogger#post",
+        "id": "2441333110428392647",
+        "blog": {
+          "id": "1949113758405332550"
+        },
+        "published": "2023-06-27T17:12:00-07:00",
+        "updated": "2023-06-30T18:32:53-07:00",
+        "url": "http://galaxy-developer-area.blogspot.com/2023/06/lorem-ipsum-simply-dummy-text-of.html",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts/2441333110428392647",
+        "title": "including versions of Lorem Ipsum.",
+        "content": "\u003cdiv class=\"separator\" style=\"clear: both; text-align: center;\"\u003e\u003ca href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLFe7QflrJ8snwerKK2-D0ol6wHT1Of8hmvn7JgqoX0WKvaf7AwHUsb0xjffL1kLGARqwfLoImJJiKmWcQUY0RMUyWaF9X8WNv4aHiaFleTTdT6l7e6edFKWJGGOplDbTSLxopubKWRs0LV6I_yK_GdNwzH0RDO7eAk3BxgGXyE7dJhtuwDhp-SvA6jzg/s526/350138502_265074636190919_1533518673134893059_n.jpg\" style=\"margin-left: 1em; margin-right: 1em;\"\u003e\u003cimg border=\"0\" data-original-height=\"526\" data-original-width=\"526\" height=\"320\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLFe7QflrJ8snwerKK2-D0ol6wHT1Of8hmvn7JgqoX0WKvaf7AwHUsb0xjffL1kLGARqwfLoImJJiKmWcQUY0RMUyWaF9X8WNv4aHiaFleTTdT6l7e6edFKWJGGOplDbTSLxopubKWRs0LV6I_yK_GdNwzH0RDO7eAk3BxgGXyE7dJhtuwDhp-SvA6jzg/s320/350138502_265074636190919_1533518673134893059_n.jpg\" width=\"320\" /\u003e\u003c/a\u003e\u003c/div\u003e\u003cbr /\u003e&nbsp;\u003cp\u003e\u003c/p\u003e\u003cblockquote style=\"border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;\"\u003e\u003cp\u003e\u003cstrong style=\"background-color: white; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; margin: 0px; padding: 0px; text-align: justify;\"\u003eLorem Ipsum\u003c/strong\u003e\u003cspan face=\"&quot;Open Sans&quot;, Arial, sans-serif\" style=\"background-color: white; font-size: 14px; text-align: justify;\"\u003e&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003c/span\u003e\u003c/p\u003e\u003c/blockquote\u003e",
+        "author": {
+          "id": "08454703556955493115",
+          "displayName": "GDA",
+          "url": "https://www.blogger.com/profile/08454703556955493115",
+          "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+          }
+        },
+        "replies": {
+          "totalItems": "0",
+          "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts/2441333110428392647/comments"
+        },
+        "etag": "\"dGltZXN0YW1wOiAxNjg4MTc1MTczNTU2Cm9mZnNldDogLTI1MjAwMDAwCg\""
+      },
+      {
+        "kind": "blogger#post",
+        "id": "8893537948772901489",
+        "blog": {
+          "id": "1949113758405332550"
+        },
+        "published": "2023-06-26T11:14:00-07:00",
+        "updated": "2023-06-27T17:10:36-07:00",
+        "url": "http://galaxy-developer-area.blogspot.com/2023/06/fwerfewfefefef-fe-ewf-ewf-ef.html",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts/8893537948772901489",
+        "title": "Lorem Ipsum is simply dummy text ",
+        "content": "\u003cp\u003e\u003c/p\u003e\u003cdiv class=\"separator\" style=\"clear: both; text-align: center;\"\u003e\u003ca href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWDyOePnC7A3C5cUMrOBrKvfVSHwQEJnlH_ziktJTUMCcdLz2k2hYPtQyNFgPquDouqGqnsI8W3K2pIpzMqTr6V2u7MKDChTZfadNeBgfqEDPx8W7-VUc69PeMCFAdQ4K106eugekfxW-1eQTJajNiqrIXur5h7qKYrcjODeWmMjvTLVIuTbvnWPFv_HU/s1600/attachment%20(1).png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"\u003e\u003cimg border=\"0\" data-original-height=\"1200\" data-original-width=\"1600\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWDyOePnC7A3C5cUMrOBrKvfVSHwQEJnlH_ziktJTUMCcdLz2k2hYPtQyNFgPquDouqGqnsI8W3K2pIpzMqTr6V2u7MKDChTZfadNeBgfqEDPx8W7-VUc69PeMCFAdQ4K106eugekfxW-1eQTJajNiqrIXur5h7qKYrcjODeWmMjvTLVIuTbvnWPFv_HU/s320/attachment%20(1).png\" width=\"320\" /\u003e\u003c/a\u003e\u003c/div\u003e\u003cbr /\u003e\u003cp\u003e\u003c/p\u003e\u003cblockquote style=\"border: none; margin: 0 0 0 40px; padding: 0px;\"\u003e\u003cp style=\"text-align: left;\"\u003e\u003cstrong style=\"background-color: white; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; margin: 0px; padding: 0px; text-align: justify;\"\u003eLorem Ipsum\u003c/strong\u003e\u003cspan style=\"background-color: white; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\"\u003e&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003c/span\u003e\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e&nbsp;\u003c/p\u003e",
+        "author": {
+          "id": "08454703556955493115",
+          "displayName": "GDA",
+          "url": "https://www.blogger.com/profile/08454703556955493115",
+          "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+          }
+        },
+        "replies": {
+          "totalItems": "0",
+          "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts/8893537948772901489/comments"
+        },
+        "etag": "\"dGltZXN0YW1wOiAxNjg3OTExMDM2NDMyCm9mZnNldDogLTI1MjAwMDAwCg\""
+      }
+    ],
+    "etag": "\"MjAyMy0wNy0wMVQxNDo1NToxOS44NTRa\""
+  }

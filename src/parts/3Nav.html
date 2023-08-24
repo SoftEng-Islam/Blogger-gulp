@@ -1,0 +1,60 @@
+<nav class="ownContiner shadow-md duration-200 z-20 flex items-center h-16 w-full bg-[var(--favColor)] border-b-8 border-[var(--light2)] dark:border-[var(--dark4)]">
+	<!-- Links -->
+	<div class="top-[55px] w-full select-none border-none flex items-center">
+		<button id="navMenuMobile" class="z-20 relative inline-flex md:hidden h-7 w-8 cursor-pointer duration-200 left-auto outline-none">
+			<span class="absolute top-0 right-0 w-full h-1 rounded-sm bg-white transition-all duration-300"></span>
+			<span class="absolute top-3 right-0 w-full h-1 rounded-sm bg-white transition-all duration-300"></span>
+			<span class="absolute top-6 right-0 w-full h-1 rounded-sm bg-white transition-all duration-300"></span>
+			<ul id="menuForMobile" class="absolute left-0 top-10 hidden flex-col gap-y-3 items-start px-4  rounded-xl shadow-md bg-[var(--light2)] dark:bg-[var(--dark2)] ">
+				<li>
+					<a class="text-black dark:text-white text-lg px-4" href="#">Home</a>
+				</li>
+				<li>
+					<a class="text-black dark:text-white text-lg px-4" href="#">News</a>
+				</li>
+				<li>
+					<a class="text-black dark:text-white text-lg px-4" href="#">HowTo</a>
+				</li>
+				<li>
+					<a class="text-black dark:text-white text-lg px-4" href="#">more</a>
+				</li>
+			</ul>
+		</button>
+		<ul id="mainMenuNav" class="hidden md:flex text-white h-full snap-x flex-row items-center [&>li:first-child]:ml-0 justify-start uppercase font-bold ">
+			<li class="mx-4 shadow-sm h-full relative rounded-md py-1 px-2">
+				<a class="" href="#">Home</a>
+			</li>
+			<li class="mx-4 shadow-sm h-full relative rounded-md py-1 px-2">
+				<a class="" href="#">News</a>
+			</li>
+			<li class="mx-4 shadow-sm h-full relative rounded-md py-1 px-2">
+				<a class="" href="#">HowTo</a>
+			</li>
+			<li class="mx-4 shadow-sm h-full relative rounded-md py-1 px-2">
+				<a class="" href="#">more</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<b:section showaddelement="yes" maxwidgets="2" id="MainPagesList" name="Main Section">
+		<!-- Search -->
+		<b:widget id='HTML4' locked='false' title='search' type='HTML'>
+			<b:widget-settings>
+			  <b:widget-setting name='content'>
+					&lt;form action=&quot;search&quot; name=&quot;input&quot; method=&quot;get&quot;&gt;
+						&lt;input class=&quot;bg-transparent border-none focus:ring-transparent outline-none&quot; placeholder=&quot;Search...&quot; value=&quot;&quot; name=&quot;q&quot; size=&quot;20&quot; type=&quot;text&quot;/&gt;
+						&lt;input class=&quot;hidden&quot; placeholder=&quot;&quot; value=&quot;&quot; type=&quot;submit&quot;/&gt;
+					&lt;/form&gt;
+				</b:widget-setting>
+			</b:widget-settings>
+			<b:includable id='main'>
+				<div class='widget-content flex items-center justify-center text-white bg-[var(--dark3)] rounded-full px-2'>
+					<svg class="fill-white scale-125" width="25" height="25" viewBox="0 0 25 25" aria-hidden="true"> <path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z"> </path></svg>
+					<data:content/>
+				</div>
+				<b:include name='quickedit'/>
+			</b:includable>
+		</b:widget>
+	</b:section>
+</nav>

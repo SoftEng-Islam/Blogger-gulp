@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html b:css="false" class="dark" lang="en"> <!-- b:js='false' -->
+
+<head>
+    @@include("../src/parts/0headContent.html")
+    <!-- prettier-ignore -->
+    <b:if cond="!data:view.isLayoutMode">
+        <b:skin>
+            {{config.cdataStart}}/*
+            <b:tag name="style">@@include("../build/styles/styles.min.css")</b:tag>
+            */{{config.cdataEnd}}
+        </b:skin>
+    </b:if>
+
+
+
+    <!-- <script src='/feeds/posts/default?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts'></script> -->
+    <!-- blog id 1949113758405332550 -->
+    <!-- user id 08454703556955493115 -->
+    <!-- Blogger API Key -->
+    <!-- AIzaSyBsn_C74rJOfub4vfRu2MNH8xWel6qhH0g -->
+    <!-- https://draft.blogger.com/blog/posts/1949113758405332550 -->
+    <!-- https://www.googleapis.com/blogger/v3/blogs/1949113758405332550?key=AIzaSyBsn_C74rJOfub4vfRu2MNH8xWel6qhH0g -->
+    <!-- https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts?key=AIzaSyBsn_C74rJOfub4vfRu2MNH8xWel6qhH0g -->
+    <!-- https://www.blogger.com/feeds/1949113758405332550/blogs -->
+    <!-- https://www.blogger.com/feeds/08454703556955493115/blogs -->
+    <!-- https://www.blogger.com/feeds/1949113758405332550/posts -->
+    <!-- https://www.blogger.com/feeds/1949113758405332550/posts/default?alt=json -->
+    <!-- Options -->
+
+
+<b:defaultmarkups>
+  <b:defaultmarkup type='Common'>
+    <b:includable id='widget-title'>
+      <b:if cond='data:defaultTitle or data:title'>
+        <div class='widget-title'>
+          <h3 class='title'>
+            <data:title/>
+          </h3>
+        </div>
+      </b:if>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='PopularPosts'>
+    <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='postContent'/>
+        </b:loop>
+      </div>
+    </b:includable>
+    <b:includable id='postContent' var='post'>
+      <div class='post'>
+        <div class='post-content'>
+          <a class='post-image-link' expr:href='data:post.url'>
+            <b:if cond='data:post.featuredImage'>
+              <img class='post-thumb' expr:alt='data:post.title' expr:src='data:post.featuredImage resizeImage 100'/>
+              <b:else/>
+              <img class='post-thumb' expr:alt='data:post.title' src='https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w100/nth.png'/>
+            </b:if>
+          </a>
+          <div class='post-info'>
+            <h2 class='post-title'>
+              <a expr:href='data:post.url'><data:post.title/></a>
+            </h2>
+            <div class='post-meta'>
+              <span class='post-date published' expr:datetime='data:post.date.iso8601'><data:post.date/></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='Header'>
+    <b:includable id='main' var='this'>
+      <div class='header-widget'>
+        <b:include cond='data:imagePlacement in {&quot;REPLACE&quot;, &quot;BEFORE_DESCRIPTION&quot;}' name='image'/>
+        <b:include cond='data:imagePlacement == &quot;BEHIND&quot;' name='title'/>
+      </div>
+    </b:includable>
+    <b:includable id='image'>
+      <a class='header-image-wrapper' expr:href='data:blog.homepageUrl'>
+        <img expr:alt='data:blog.title.escaped' expr:data-height='data:height' expr:data-width='data:width' expr:src='data:image'/>
+      </a>
+    </b:includable>
+  </b:defaultmarkup>
+
+  <b:defaultmarkup type='FeaturedPost'>
+
+    <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <div class='widget-content'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='postContent'/>
+        </b:loop>
+      </div>
+    </b:includable>
+
+
+    <b:includable id='postContent' var='post'>
+      <div class='post'>
+        <div class='post-content'>
+          <a class='post-image-link' expr:href='data:post.url'>
+            <b:if cond='data:post.featuredImage'>
+              <img class='post-thumb' expr:alt='data:post.title' expr:src='data:post.featuredImage resizeImage 640'/>
+              <b:else/>
+              <img class='post-thumb' expr:alt='data:post.title' src='https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w640/nth.png'/>
+            </b:if>
+            <span class='post-tag'><data:post.labels.last.name/></span>
+          </a>
+          <div class='post-info'>
+            <h2 class='post-title'>
+              <a expr:href='data:post.url'><data:post.title/></a>
+            </h2>
+            <div class='post-meta'>
+              <span class='post-author'><data:post.author.name/></span>
+              <span class='post-date published' expr:datetime='data:post.date.iso8601'><data:post.date/></span>
+            </div>
+            <p class='post-snippet'><b:eval expr='data:post.snippets.short snippet { length: 87 }'/></p>
+          </div>
+        </div>
+      </div>
+    </b:includable>
+
+  </b:defaultmarkup>
+
+
+  <b:defaultmarkup type='Label'>
+    <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+        <b:class expr:name='data:this.display + &quot;-label&quot;'/>
+        <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+        <b:include cond='data:this.display == &quot;cloud&quot;' name='list'/>
+      </div>
+    </b:includable>
+    <b:includable id='list'>
+      <ul>
+        <b:loop values='data:labels' var='label'>
+          <li>
+            <a class='label-name' expr:href='data:label.url'>
+              <data:label.name/>
+              <b:if cond='data:this.showFreqNumbers'>
+                <span class='label-count'><data:label.count/></span>
+              </b:if>
+            </a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='FollowByEmail'>
+    <b:includable id='main' var='this'>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+        <b:if cond='data:defaultTitle or data:title'>
+          <h3 class='title'>
+            <data:title/>
+          </h3>
+        </b:if>
+        <span class='before-text'><data:skin.vars.followByEmail/></span>
+        <div class='follow-by-email-inner'>
+          <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
+            <input autocomplete='off' class='follow-by-email-address' expr:placeholder='data:messages.emailAddress' name='email' type='email'/>
+            <input class='follow-by-email-submit' expr:value='data:messages.subscribe' type='submit'/>
+            <input expr:value='data:feedPath' name='uri' type='hidden'/>
+            <input name='loc' type='hidden' value='en_US'/>
+          </form>
+        </div>
+      </div>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='BlogSearch'>
+    <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content' role='search'>
+        <form class='search-form' expr:action='data:blog.searchUrl'>
+          <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+          <b:include name='urlParamsAsFormInput'/>
+          <input autocomplete='off' class='search-input' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
+          <input class='search-action' expr:value='data:messages.search.escaped' type='submit'/>
+        </form>
+      </div>
+    </b:includable>
+  </b:defaultmarkup>
+  <b:defaultmarkup type='BlogArchive'>
+    <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+    <b:includable id='content'>
+      <div class='widget-content'>
+        <div id='ArchiveList'>
+          <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+            <b:include cond='data:this.style in {&quot;FLAT&quot;, &quot;MENU&quot;, &quot;HIERARCHY&quot;}' name='flat'/>
+          </div>
+        </div>
+      </div>
+    </b:includable>
+    <b:includable id='flat'>
+      <ul class='flat'>
+        <b:loop values='data:data' var='i'>
+          <li class='archivedate'>
+            <a expr:href='data:i.url'>
+              <data:i.name/><span class='post-count'><data:i.post-count/></span>
+            </a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:includable>
+  </b:defaultmarkup>
+</b:defaultmarkups>
+
+<script type="text/javascript">
+    // <![CDATA[
+        var blogId = +"1949113758405332550",
+            authorId = +"08454703556955493115",
+            urlBlog = `https://${new URL(window.location.href).hostname}/feeds/${blogId}/posts/default?alt=json`;
+            console.log(`${new URL(window.location.href).hostname}`);
+            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.remove('light');
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.documentElement.classList.add('light');
+            }
+    // ]]>
+</script>
+
+
+</head>
+<body class="top-0 left-0 h-full w-full bg-[var(--light1)] dark:bg-[var(--dark4)]">
+    <b:class cond='data:view.isHomepage' name='home same'/>
+    <b:class cond='data:view.isPage' name='item'/>
+    <b:class cond='data:view.isArchive' name='index'/>
+    <b:class cond='data:view.isError' name='error404'/>
+    <b:class cond='data:view.isSearch' name='SearchPage same'/>
+    <b:class cond='data:view.isMultipleItems' name='isMultipleItems'/>
+    <b:class cond='data:view.isSingleItem' name='isSingleItem'/>
+    <!-- <b:section id="main" /> -->
+    <div id="app" class="app w-full">
+        <div class="relative flex flex-col pb-16">
+
+
+
+
+
+
+            <!-- Header -->
+            @@include("../src/parts/1topHeader.html")
+            @@include("../src/parts/2medHeader.html")
+            @@include("../src/parts/3Nav.html")
+
+
+
+            <div id="myContent" class="ownContiner w-full flex justify-center xl:justify-between pt-20">
+
+
+
+                <!-- prettier-ignore -->
+                <div class="w-full xl-w-[73%] overflow-hidden flex flex-col justify-center">
+					<b:if cond="data:blog.url == data:blog.homepageUrl">
+						<div class="mb-14">
+							<h1 class="my-6 text-black dark:text-white">Welcome To <data:blog.title/></h1>
+							<p class="text-black dark:text-white">The Blog for Everyhing.</p>
+						</div>
+					</b:if>
+
+                    <b:if cond="data:blog.pageType == &quot;error_page&quot; ">
+                        @@include("../src/parts/Error404.html")
+                    </b:if>
+
+                    <!-- <b:if cond='data:blog.pageType == &quot;index&quot; ' > -->
+                        <b:if cond="data:blog.url == data:blog.homepageUrl">
+                            @@include("../src/parts/5home.html")
+                        </b:if>
+                            @@include("../src/parts/6blog.html")
+                    </div>
+
+                    @@include("../src/parts/4aside.html")
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    @@include("../src/parts/footer.html")
+
+    <b:tag name="script" defer="true">
+		<!-- {{config.cdataStart:alt}}@@include("../src/assets/widgets.js"){{config.cdataEnd:alt}} -->
+        {{config.cdataStart:alt}}@@include("../build/scripts/bundle.js"){{config.cdataEnd:alt}}
+    </b:tag>
+
+</body>
+
+</html>

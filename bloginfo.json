@@ -1,0 +1,23 @@
+{
+    "kind": "blogger#blog",
+    "id": "1949113758405332550",
+    "name": "Galaxy Developer Area",
+    "description": "Description",
+    "published": "2021-11-27T19:23:56-08:00",
+    "updated": "2023-07-01T08:41:13-07:00",
+    "url": "http://galaxy-developer-area.blogspot.com/",
+    "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550",
+    "posts": {
+      "totalItems": 3,
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/posts"
+    },
+    "pages": {
+      "totalItems": 0,
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/1949113758405332550/pages"
+    },
+    "locale": {
+      "language": "en",
+      "country": "",
+      "variant": ""
+    }
+  }
